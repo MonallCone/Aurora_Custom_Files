@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew Stuffs</name>
+		<description>Dumb Shit</description>
+		<author>Monall Cone</author>
+		<update version="0.1.7">
+			<file name="eldritch-hunt.index" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Homebrew%20Stuffs"/>
+		</update>
+	</info>
+	<files>
+			<file name="items-wondrous.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Homebrew%20Stuffs/items-wondrous" />
+</files>
+</index>
