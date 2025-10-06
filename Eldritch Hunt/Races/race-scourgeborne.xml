@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Scourgeborne</name>
+		<update version="0.2">
+			<file name="race-scourgeborne.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Scourgeborne" type="Race" source="Eldritch Hunt" id="ID_RACE_SCOURGEBORNE">
+		<description>
+			<p class="flavor">Scourgebornes should not exist. They are an abomination of the world, a vile curse placed on those who peered beyond the veil and succumbed to madness. Their twisted appearance is but a mirror of the darkest recesses of their personality. All sentient creatures harbora monster within their soul - the dark of you that resents your neighbor for having a better life than you, that hates your friends when they ignore you, that wishes to harm those that wrong you - most are fortunate enough to be able to hide this monster behind a mask of false virtues. Not the Scourgeborne.
+            
+            Their curse has taken all the most twisted aspects of their personality and laid them bare for the whole world to see. They wear this disfigured appearance every day; the more resentment, hatred and anger one possesses, the more monstrous the appearance.
+            
+            Many view this Eldritch revelation as a curse - a curse that drives one to slip deeper and deeper into the depths of depravity until nothing but the monster remains. Yet, many refuse to let it break them - with their innermost darkness now visible, they have no choice but to accept it. It is said that accepting a fault is the first step in correcting it. Those scourgeborne who embrace their inner monster, but refuse to let it rule them, often become messianic heroes within the walls of Luyarnha, attempting to redeem the entire world with their actions, and perhaps one day, themselves. </p>
+            <h4>Manakin TRAITS</h4>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2</p>
+            <p class="indent"><strong><em>Age.</em></strong>  Scourgeborne are made not born. This means that they mature at the same rate as the race they originally belonged to.</p>
+            <p class="indent"><strong><em>Size.</em></strong>Scourgeborne are about the same size and build as humans. Your size is Medium. </p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet</p>
+            <p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and one other language of your choice. </p>
+            
+            <p class="indent"><strong><em>Feral Limbs</em></strong>The horns, claws or fangs that you have developed due to your mutation are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. If your alignment is Evil, your feral side is more dominant and the die size for your unarmed strikes increases to a d8.</p>
+            <p class="indent"><strong><em>Eldritch Curse</em></strong> Your curse is not something mere mortals can undo. You are immune to any spell that would alter your form. (e.g., alter self, polymorph...)</p>
+            <p class="indent"><strong><em>Born of Madness</em></strong>Your body is not the one you were born with, but rather the consequence to your exposure to eldritch madness:
+                <ul>
+                    <li>
+                    <strong> If your alignment is Good</strong> 
+                    you gain control over your darkest impulses. You have advantage on saving throws against madness. 
+                    </li>
+                    <li>
+                    <strong>If your alignment is Evil</strong>
+                    you let the depraved monster within you influence you. You have disadvantage on saving throws against madness but gain a bonus to Dexterity saving throws equal to your Proficiency bonus.
+                    </li>
+                </ul>
+            </p>
+        <p class="indent"><strong><em>Subraces</em></strong>Your subrace is dictated by an eldritch curse, which doesn’t seem to follow a clear reasoning, although it seems that whatever aspect of your personality is most depraved will influence the beast that emerges. There are 4 subraces: belua, vespertilio, aranea, and cervus.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'0"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+            <select type="Language" name="Language (Scourgeborne)" supports="Standard||Exotic"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERAL_LIMBS"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELDRITCH_CURSE"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_BORN_OF_MADNESS" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SCOURGEBORNE_SUBRACES"/>
+		</rules>
+	</element>
+    
+    <element name="Born of Madness" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_BORN_OF_MADNESS">
+        <description>
+            <p>
+            Your body is not the one you were born with, but rather the consequence to your exposure to eldritch madness:
+                <ul>
+                    <li>
+                    <strong> If your alignment is Good</strong> 
+                    you gain control over your darkest impulses. You have advantage on saving throws against madness. 
+                    </li>
+                    <li>
+                    <strong>If your alignment is Evil</strong>
+                    you let the depraved monster within you influence you. You have disadvantage on saving throws against madness but gain a bonus to Dexterity saving throws equal to your Proficiency bonus.
+                    </li>
+                </ul>
+            </p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Born of Madness" supports="Born of Madness" number="1"/>
+        </rules>
+    </element>
+    <element name="Born of Madness (Good)" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_BOM_GOOD">
+        <compendium display="false"/>
+        <supports>Born of Madness</supports>
+        <description>
+            <p>Being Good Aligned: You gain control over your darkest impulses. You have advantage on saving throws against madness. </p>
+        </description>
+        <sheet>
+            <description>You gain control over your darkest impulses. You have advantage on saving throws against madness.</description>
+        </sheet>
+    </element>
+    <element name="Born of Madness (Evil)" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_BOM_EVIL">
+        <compendium display="false"/>
+        <supports>Born of Madness</supports>
+        <description>
+            <p>Being Evil Aligned: you let the depraved monster within you influence you. You have disadvantage on saving throws against madness but gain a bonus to Dexterity saving throws equal to your Proficiency bonus. </p>
+        </description>
+        <sheet>
+            <description>You have disadvantage on saving throws against madness but gain a bonus to Dexterity saving throws equal to your Proficiency bonus.</description>
+        </sheet>
+    </element>
+    
+	<element name="Feral Limbs" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_FERAL_LIMBS">
+		<description>
+			<p>The horns, claws or fangs that you have developed due to your mutation are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. If your alignment is Evil, your feral side is more dominant and the die size for your unarmed strikes increases to a d8.</p>
+		</description>
+		<sheet>
+			<description>Your unarmed strikes you deal 1d6 + Strength modifier piercing damage. If Evil Aligned the die size for your unarmed strikes increases to a d8.</description>
+		</sheet>
+	</element>
+    
+    <element name="Eldritch Curse" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_ELDRITCH_CURSE">
+		<description>
+			<p>Your curse is not something mere mortals can undo. You are immune to any spell that would alter your form. (e.g., alter self, polymorph...)</p>
+		</description>
+		<sheet>
+			<description>You are immune to any spell that would alter your form.</description>
+		</sheet>
+	</element>
+    
+	<element name="Scourgeborne Subrace" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_SCOURGEBORNE_SUBRACES">
+		<description>
+			<p>Your subrace is dictated by an eldritch curse, which doesn’t seem to follow a clear reasoning, although it seems that whatever aspect of your personality is most depraved will influence the beast that emerges. There are 4 subraces: belua, vespertilio, aranea, and cervus.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Scourgeborne Subrace" supports="Scourgeborne"/>
+		</rules>
+	</element>
+    
+    <element name="Aranea" type="Sub Race" source="Eldritch Hunt" id="ID_SUB_RACE_ARANEA">
+        <supports>Scourgeborne</supports>
+        <description>
+            <p>The person who schemes and creates a web of lies around themselves is, unsurprisingly, bound to turn into an arenea. Also known as half-spiders, these scourgeborne differ from others - though many turn, few retain their sanity. Amongst the scourgeborne, areneas are the least trusted, their appearance revealing their former - or current - manipulative personality. Although most citizens understand the need for violence, especially in Luyarnha, none tolerate deception and betrayal.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> . Intelligence score increases by 1 and one ability score of your choice increases by 1.</p>
+            <p class="indent"><strong><em>Spider Climb</em></strong>You have a climbing speed of 30 feet. In addition, you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. You can only do so for a number of minutes equal to your proficiency bonus and you regain all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Web Spirit</em></strong> As a bonus action, you hurl sticky web at a creature within 60 feet of you; it must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be restrained by the webbing. As an action, the restrained target can make a Strength check against the DC, bursting the webbing and freeing itself on a success. The webbing can also be attacked and destroyed (AC 10; HP equal to 3 times your proficiency bonus; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). Once you use this trait, you can't use it again until you finish a long rest. </p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="intelligence" value="1"/>
+            <select type="Racial Trait" name="Ability Score Increase (Scorgeborne)" supports="Scourgeborne ASI" number="1"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIDERCLIMB"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_WEB_SPIRIT" />
+        </rules>
+    </element>
+    
+    <element name="Spider Climb" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_SPIDERCLIMB">
+        <description>
+            <p>You have a climbing speed of 30 feet. In addition, you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. You can only do so for a number of minutes equal to your proficiency bonus and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="Long Rest">
+            <description>You can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check. You can only do so for a number of minutes equal to your proficiency bonus</description>
+        </sheet>
+        <rules>
+            <stat name="innate speed:climb" value="30" bonus="base" />
+        </rules>
+    </element>
+    <element name="Web Spirit" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_WEB_SPIRIT">
+        <description>
+            <p>As a bonus action, you hurl sticky web at a creature within 60 feet of you; it must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be restrained by the webbing. As an action, the restrained target can make a Strength check against the DC, bursting the webbing and freeing itself on a success. The webbing can also be attacked and destroyed (AC 10; HP equal to 3 times your proficiency bonus; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage). Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="Long Rest">
+            <description>You hurl sticky web at a creature within 60 feet of you; it must succeed on a Dexterity saving throw (DC = 8 + your proficiency bonus + your Constitution modifier) or be restrained by the webbing.As an action, the restrained target can make a Strength check against the DC, bursting the webbing and freeing itself on a success. The webbing can also be attacked and destroyed (AC 10; HP equal to 3 times your proficiency bonus; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</description>
+        </sheet>
+    </element>
+
+    <element name="Belua" type="Sub Race" source="Eldritch Hunt" id="ID_SUB_RACE_BELUA">
+        <supports>Scourgeborne</supports>
+        <description>
+            <p>Those that harbor seething anger within oft turn into the most feral of beasts. Belua - also known as halfwolves - are the most feral of all the Scourgeborne roaming the streets of Luyarnha. Many of them choose to hide their eyes, as their intense bloodlust turns their gaze crimson red, a terrifying sight for the uninitiated.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Strength score increases by 1 and one ability score of your choice increases by 1.</p>
+            <p class="indent"><strong><em>Keen Hearing and Smell</em></strong>You have advantage on Perception checks that rely on hearing or smell.</p>
+            <p class="indent"><strong><em>Hungry Jaws</em></strong>. As a bonus action, you can attempt to feed off of a creature within 5 feet of you. Make an unarmed strike. On a hit, you regain hit points equal to the damage dealt. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1"/>
+            <select type="Racial Trait" name="Ability Score Increase (Scorgeborne)" supports="Scourgeborne ASI" number="1"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_HEARING_SMELL"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_HUNGRY_JAWS" />
+        </rules>
+    </element>
+    <element name="Keen Hearing and Smell" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_KEEN_HEARING_SMELL">
+        <description>
+            <p>You have advantage on Perception checks that rely on hearing or smell.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Perception checks that rely on hearing or smell.</description>
+        </sheet>
+    </element>
+    <element name="Hungry Jaws" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_HUNGRY_JAWS">
+        <description>
+            <p>As a bonus action, you can attempt to feed off of a creature within 5 feet of you. Make an unarmed strike. On a hit, you regain hit points equal to the damage dealt. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="Proficiency Bonus/Long Rest">
+            <description>You can attempt to feed off of a creature within 5 feet of you. Make an unarmed strike. On a hit, you regain hit points equal to the damage dealt.</description>
+        </sheet>
+    </element>
+
+    <element name="Cervus" type="Sub Race" source="Eldritch Hunt" id="ID_SUB_RACE_CERVUS">
+        <supports>Scourgeborne</supports>
+        <description>
+            <p>The rarest amongst the scourgeborne. To become a cervus, also called half-deer or waldschrat, one must have committed the foulest of sins - devouring the flesh of their kin. Or so the rumor went. This urban legend has long since been disproved as many of the town’s most trusted figures have turned into such creatures. Interestingly, it seems that those that become cervus are the most apt at fighting creatures of the night, an achievement that earns them the respect of hunters across the city-state.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>Either your Wisdom score or Strength score increases by 1 (your choice), and one ability score of your choice increases by 1.</p>
+            <p class="indent"><strong><em>Goring Charge</em></strong>If you move at least 20 feet straight toward a creature and then hit it with a melee attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make one melee attack against it as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+            <p class="indent"><strong><em>Nimble Build</em></strong>Your movement speed increases by 10 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase (Scorgeborne)" supports="Cervus"/>
+            <select type="Racial Trait" name="Ability Score Increase (Scorgeborne)" supports="Scourgeborne ASI"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_GORING_CHARGE"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NIMBLE_BUILD" />
+        </rules>
+    </element>
+    <element name="Goring Charge" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_GORING_CHARGE">
+        <description>
+            <p>If you move at least 20 feet straight toward a creature and then hit it with a melee attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make one melee attack against it as a bonus action. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+        </description>
+        <sheet usage="Proficiency Bonus/Long Rest">
+            <description>If you move at least 20 feet straight toward a creature and then hit it with a melee attack on the same turn, that target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Strength modifier) or be knocked prone. If the target is prone, you can make one melee attack against it as a bonus action.</description>
+        </sheet>
+    </element>
+    <element name="Nimble Build" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_NIMBLE_BUILD">
+        <description>
+            <p>Your movement speed increases by 10 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="cervus:nimble build" value="10" bonus="nimble build"/>
+            <stat name="innate speed:misc" value="cervus:nimble build" bonus="nimble build"/>
+        </rules>
+    </element>
+    
+    <element name="Vespertilio" type="Sub Race" source="Eldritch Hunt" id="ID_SUB_RACE_VESPERTILIO">
+        <supports>Scourgeborne</supports>
+        <description>
+            <p>Those who hid in fear in the face of adversity are cursed to become these beasts of the night. Vespertilio - also known as half-bats - present some of the most accursed beings amongst the scourgeborne. Their unwillingness to see their problems has taken a literal form as most of their sight was stolen from them. Instead, they received half broken wings in a cruel farce of fate, as if to run away from their problems. Yet those who harness these new powers can become some of the fiercest hunters - an act of defiance against fate itself</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong>Your Dexterity score increases by 1 and one ability score of your choice increases by 1.</p>
+            <p class="indent"><strong><em>Echolocative Sight</em></strong>You have blindsight out to 30 feet and have disadvantage on any ability check or attack roll that requires sight beyond this radius.</p>
+            <p class="indent"><strong><em>Tattered Wings.</em></strong>You can use a bonus action to gain a flying speed of 30 feet until the end of your turn. If nothing is holding you aloft at the end of your turn, you fall. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1"/>
+            <select type="Racial Trait" name="Ability Score Increase (Scorgeborne)" supports="Scourgeborne ASI" number="1"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_ECHOLOCATIVE_SIGHT"/>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_TATTERED_WINGS" />
+        </rules>
+    </element>
+    <element name="Echolocative Sight" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_ECHOLOCATIVE_SIGHT">
+        <description>
+            <p>You have blindsight out to 30 feet and have disadvantage on any ability check or attack roll that requires sight beyond this radius.</p>
+        </description>
+        <sheet>
+            <description>You have blindsight out to 30 feet and have disadvantage on any ability check or attack roll that requires sight beyond this radius.</description>
+        </sheet>
+    </element>
+    <element name="Tattered Wings" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_TATTERED_WINGS">
+        <description>
+            <p>You can use a bonus action to gain a flying speed of 30 feet until the end of your turn. If nothing is holding you aloft at the end of your turn, you fall. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a short or long rest.</p>
+        </description>
+        <sheet action="Bonus Action" usage="Proficiency Bonus/Short Rest">
+            <description>You gain a flying speed of 30 feet until the end of your turn. If nothing is holding you aloft at the end of your turn, you fall.</description>
+        </sheet>
+    </element>
+    
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SCOURGEBORNE_STRENGTH">
+        <compendium display="false"/>
+        <supports>Scourgeborne ASI, Cervus</supports>
+        <description>
+            <p>Your Strength score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="strength" value="1"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SCOURGEBORNE_DEXTERITY">
+        <compendium display="false"/>
+        <supports>Scourgeborne ASI</supports>
+        <description>
+            <p>Your Dexterity score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="dexterity" value="1"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SCOURGEBORNE_CONSTITUTION">
+        <compendium display="false"/>
+        <supports>Scourgeborne ASI</supports>
+        <description>
+            <p>Your Constitution score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="constitution" value="1"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SCOURGEBORNE_INTELLIGENCE">
+        <compendium display="false"/>
+        <supports>Scourgeborne ASI</supports>
+        <description>
+            <p>Your Intelligence score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="intelligence" value="1"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SCOURGEBORNE_WISDOM">
+        <compendium display="false"/>
+        <supports>Scourgeborne ASI, Cervus</supports>
+        <description>
+            <p>Your Wisdom score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="wisdom" value="1"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Player’s Handbook" id="ID_RACIAL_TRAIT_SCOURGEBORNE_CHARISMA">
+        <compendium display="false"/>
+        <supports>Scourgeborne ASI</supports>
+        <description>
+            <p>Your Charisma score increases by 1.</p>
+        </description>
+        <rules>
+            <stat name="charisma" value="1"/>
+        </rules>
+    </element>
+</elements>

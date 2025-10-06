@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Accursed Tiefling</name>
+		<update version="0.2">
+			<file name="race-accursedtiefling.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Accursed Tiefling" type="Race" source="Eldritch Hunt" id="ID_RACE_ACCURSED_TIEFLING">
+		<description>
+			<p class="flavor">The city of Luyarnha has never experienced the threat of devils, as if fiends fear coming near the city walls. This absence extends to those of infernal descent; tieflings born in the gothic city are severed from their devilish origins, their blood becoming tied to something far more sinister. Called “accursed” due to their monstrous appearance, they are feared by most, and their powers envied by nearly as many, letting their jealousy morph into hatred; an accursed existence indeed. These tieflings possess a fraction of the power of their dark mother’s boundless reproduction and are incapable of creating life, though they can create figments of it, with the most powerful capable of creating ephemeral copies of themselves to fight in battle. These tieflings never stay in the city for long, vanishing shortly after reaching adulthood. </p>
+            <h4>Accursed Tiefling Features</h4>
+            <p class="indent"><strong><em>Apperance</em></strong> Accursed tieflings vastly differ from their brethren. Instead of a pair of horns, they have dozens protruding from their skull, akin to a never-ending cancerous growth. Their monstrous shape is furthered by the eye-like protrusions that cover the horns, although they are nothing more than bony sprouts waiting to burgeon. Their skin is thick, covered in bestial fur, and their muscular limbs are grossly misshaped; the human half of their heritage has nearly all but vanished.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2 and your Constitution increase by 1</p>
+            <p class="indent"><strong><em>Age.</em></strong> Tieflings mature at the same rate as humans but live a few years longer.</p>
+            <p class="indent"><strong><em>Darkvision</em></strong> Thanks to your eldritch heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray</p>
+            <p class="indent"><strong><em>Size.</em></strong>  Tieflings are about the same size and build as humans. Your size is Medium. </p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Deep Speech.</p>
+            <p class="indent"><strong><em>Eldritch Resistance</em></strong> You have resistance to necrotic damage.</p>
+            <p class="indent"><strong><em>Legacy of a Thousand Young</em></strong>You know the spare the dying cantrip. When you reach 3rd level, you can cast the false life spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the mirror image spell once with this trait. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells. </p>
+            <p class="indent"><strong><em>Call of the Brood</em></strong>If a Blood Moon is out while you are asleep, you have a dream (as per the spell, save DC 16). In this dream, the Black Goat places a compulsion within your mind, ordering you to carry out some activity as a torrent of images and sensations. When you awaken, you are automatically affected by a suggestion spell (save DC 16, cast as a 7th-level spell) in addition to the effects of dream, and must carry out the order.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+			<set name="height" modifier="2d10">4'0"</set>
+			<set name="weight" modifier="1d4">100 lb.</set>
+		</setters>
+		<rules>
+			<stat name="charisma" value="2" />
+            <stat name="constitution" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+            <grant type="Language" id="ID_LANGUAGE_DEEP_SPEECH"/>
+            <grant type="Vision" id="ID_VISION_DARKVISION"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ELDRITCH_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LEGACY_THOUSAND_YOUNG"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CALL_OF_THE_BROOD" />
+		</rules>
+	</element>
+
+	<element name="Eldritch Resistance" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_ELDRITCH_RESISTANCE">
+		<description>
+			<p> You have resistance to necrotic damage.</p>
+		</description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC"/>
+        </rules>
+	</element>
+    
+    <element name="Legacy of a Thousand Young" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_LEGACY_THOUSAND_YOUNG">
+		<description>
+			<p>You know the spare the dying cantrip. When you reach 3rd level, you can cast the false life spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the mirror image spell once with this trait. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description level="1">You know the spare the dying cantrip.</description>
+            <description level="3">You know the spare the dying cantrip and you can cast the false life spell as a 2nd-level spell once with this trait.</description>
+            <description level="5">You know the spare the dying cantrip, the false life spell as a 2nd-level spell once with this trait and the mirror image spell once per long rest (Constitution).</description>
+		</sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SPARE_THE_DYING" level="1"/>
+            <grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE" level="3"/>
+            <grant type="Spell" id="ID_PHB_SPELL_MIRROR_IMAGE" level="5"/>
+        </rules>
+    </element>
+    
+	<element name="Call of the Brood" type="Racial Trait" source="Eldritch Hunt" id="ID_RACIAL_TRAIT_CALL_OF_THE_BROOD">
+		<description>
+			<p>If a Blood Moon is out while you are asleep, you have a dream (as per the spell, save DC 16). In this dream, the Black Goat places a compulsion within your mind, ordering you to carry out some activity as a torrent of images and sensations. When you awaken, you are automatically affected by a suggestion spell (save DC 16, cast as a 7th-level spell) in addition to the effects of dream, and must carry out the order.</p>
+		</description>
+		<sheet>
+            <description>If a Blood Moon is out while you are asleep, you have a dream (as per the spell, save DC 16). In this dream, the Black Goat places a compulsion within your mind, ordering you to carry out some activity as a torrent of images and sensations. When you awaken, you are automatically affected by a suggestion spell (save DC 16, cast as a 7th-level spell) in addition to the effects of dream, and must carry out the order.</description>
+        </sheet>
+	</element>
+</elements>
