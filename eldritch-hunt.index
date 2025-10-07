@@ -9,30 +9,30 @@
 		</update>
 	</info>
 	<files>
-		<file name="background-amnesiac.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-amnesiac" />
-		<file name="background-beasthunter.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-beasthunter" />
-		<file name="background-cultinitiate.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-cultinitiate" />
-		<file name="background-disciple.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-disciple" />
-		<file name="background-inquisitor.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-inquisitor" />
-		<file name="background-investigator.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-invesitgator" />
-		<file name="background-markedfordeath.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-markedfordeath" />
-		<file name="background-scion.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-scion" />
-		<file name="background-worthlesshusk.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-worthlesshusk" />
+		<file name="background-amnesiac.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-amnesiac.xml" />
+		<file name="background-beasthunter.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-beasthunter.xml" />
+		<file name="background-cultinitiate.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-cultinitiate.xml" />
+		<file name="background-disciple.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-disciple.xml" />
+		<file name="background-inquisitor.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-inquisitor.xml" />
+		<file name="background-investigator.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-invesitgator.xml" />
+		<file name="background-markedfordeath.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-markedfordeath.xml" />
+		<file name="background-scion.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-scion.xml" />
+		<file name="background-worthlesshusk.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Backgrounds/background-worthlesshusk.xml" />
 
-		<file name="race-accursedtiefling.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-accursedtiefling" />		
-		<file name="race-cursedblood.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-cursedblood" />
-		<file name="race-deeponedwarf.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-deeponedwarf" />
-		<file name="race-demidritch.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-demidritch" />
-		<file name="race-manakin.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-manakin" />
-		<file name="race-scourgeborne.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-scorgeborne" />
+		<file name="race-accursedtiefling.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-accursedtiefling.xml" />		
+		<file name="race-cursedblood.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-cursedblood.xml" />
+		<file name="race-deeponedwarf.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-deeponedwarf.xml" />
+		<file name="race-demidritch.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-demidritch.xml" />
+		<file name="race-manakin.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-manakin.xml" />
+		<file name="race-scourgeborne.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Races/race-scorgeborne.xml" />
 
-		<file name="feats.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/feats" />	
-		<file name="spells.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/spells" />
+		<file name="feats.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/feats.xml" />	
+		<file name="spells.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/spells.xml" />
 
-		<file name="barbarian-path-of-the-earthbreaker.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/barbarian-path-of-the-earthbreaker" />
-		<file name="barbarian-path-of-the-lightning-vessel.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/barbarian-path-of-the-lightning-vessel" />
-		<file name="bard-college-of-the-apocalypse.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/bard-college-of-the-apocalypse" />
-		<file name="paladin-oath-of-the-eldritch-hunt.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/paladin-oath-of-the-eldritch-hunt" />
-		<file name="wizard-osteomancer.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/wizard-osteomancer" />	
+		<file name="barbarian-path-of-the-earthbreaker.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/barbarian-path-of-the-earthbreaker.xml" />
+		<file name="barbarian-path-of-the-lightning-vessel.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/barbarian-path-of-the-lightning-vessel.xml" />
+		<file name="bard-college-of-the-apocalypse.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/bard-college-of-the-apocalypse.xml" />
+		<file name="paladin-oath-of-the-eldritch-hunt.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/paladin-oath-of-the-eldritch-hunt.xml" />
+		<file name="wizard-osteomancer.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Eldritch%20Hunt/Sub-Classes/wizard-osteomancer.xml" />	
 </files>
 </index>

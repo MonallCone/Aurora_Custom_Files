@@ -5,10 +5,10 @@
 		<description>Dumb Shit</description>
 		<author>Monall Cone</author>
 		<update version="0.1.7">
-			<file name="eldritch-hunt.index" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Homebrew%20Stuffs"/>
+			<file name="homebrew-stuffs.index" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Homebrew%20Stuffs"/>
 		</update>
 	</info>
 	<files>
-			<file name="items-wondrous.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Homebrew%20Stuffs/items-wondrous" />
+			<file name="items-wondrous.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Homebrew%20Stuffs/items-wondrous.xml" />
 </files>
 </index>
