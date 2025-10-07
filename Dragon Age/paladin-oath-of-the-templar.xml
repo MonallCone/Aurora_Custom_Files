@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Oath of the Templar</name>
-        <update version="0.0.1">
+        <update version="2.0.0">
             <file name="paladin-oath-of-the-templar.xml" url="" />
         </update>
     </info>

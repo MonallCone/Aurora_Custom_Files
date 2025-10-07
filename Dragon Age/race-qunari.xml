@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Qunari</name>
-		<update version="0.2">
+		<update version="2.0.0">
 			<file name="race-qunari.xml" url="" />
 		</update>
 	</info>
@@ -22,7 +22,7 @@
 			<p class="indent"><strong><em>Imtimidating Presense</em></strong>You are proficient in the Intimidation skill. Your imposing physical presence and unyielding discipline make you a fearsome figure. You may use your strength instead of charisma when intimidating someone.</p>
             <p class="indent"><strong><em>Qunari Resilience</em></strong>As a reaction, when you take physical damage (piercing, slashing or bludgeoning), you can reduce the damage by an amount equal to 1d12 + your Constitution modifier (minimum 1)
             You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses of this feature after finishing a long rest.</p>
-			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common and Qunlat. Qunlati is the language of their people, and it is used primarily in their strict societal dealing</p>
+			<p class="indent"><strong><em>Languages</em></strong> As a qunari you can speak and read Qunlat.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

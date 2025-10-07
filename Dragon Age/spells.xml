@@ -1,7 +1,7 @@
 <elements>
     <info>
         <name>Dragon Age Spells</name>
-        <update version="0.4.5">
+        <update version="2.0.0">
             <file name="spells.xml" url=""/>
         </update>
     </info>

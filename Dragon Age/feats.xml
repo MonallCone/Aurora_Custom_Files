@@ -3,7 +3,7 @@
     <name>Feats</name>
     <description>Feats from Dragon Age</description>
     <author url="">Dragon Age</author>
-    <update version="0.1.6">
+    <update version="2.0.0">
         <file name="feats.xml" url=""/>
 </update>
 </info>

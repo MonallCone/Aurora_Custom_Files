@@ -3,7 +3,7 @@
   <info>
     <name>Sloth Demon</name>
     <description>Sloth Demon from Dragon Age</description>
-    <update version="0.0.5">
+    <update version="2.0.0">
       <file name="warlock-sloth-demon.xml" url="" />
     </update>
   </info>

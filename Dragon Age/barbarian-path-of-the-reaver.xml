@@ -3,7 +3,7 @@
     <info>
         <name>Path of the Reaver</name>
 		<author url="">Dragon Age</author>
-        <update version="0.0.1">
+        <update version="2.0.0">
             <file name="barbarian-path-of-the-reaver.xml" url="" />
         </update>
     </info>

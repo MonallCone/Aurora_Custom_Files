@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Elf</name>
-		<update version="0.2">
+		<update version="2.0.0">
 			<file name="race-elf.xml" url="" />
 		</update>
 	</info>
