@@ -11,7 +11,6 @@
 	<files>
 		<file name="feats.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/feats.xml" />
 
-		<!-- amonkhet -->
 		<file name="items-wondrous.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/items-wondrous.xml" />
 		<file name="languages.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/languages.xml" />
 		<file name="spells.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/spells.xml" />
