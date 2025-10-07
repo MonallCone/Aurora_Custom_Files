@@ -2,9 +2,8 @@
 <elements>
   <info>
     <name>Sloth Demon</name>
-    <description>Sloth Demon from Dragon Age</description>
-    <update version="2.0.0">
-      <file name="warlock-sloth-demon.xml" url="" />
+    <update version="5.0.0">
+      <file name="warlock-sloth-demon.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/warlock-sloth-demon.xml" />
     </update>
   </info>
   <element name="Sloth Demon" type="Archetype" source="Dragon Age" id="ID_DA_ARCHETYPE_SLOTH_DEMON">

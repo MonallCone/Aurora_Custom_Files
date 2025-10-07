@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Qunari</name>
-		<update version="2.0.0">
-			<file name="race-qunari.xml" url="" />
+		<update version="5.0.0">
+			<file name="race-qunari.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/race-qunari.xml" />
 		</update>
 	</info>
 

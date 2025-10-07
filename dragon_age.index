@@ -4,7 +4,7 @@
 		<name>Dragon Age</name>
 		<description>Dragon age dnd 5e custom files</description>
 		<author>Monall Cone</author>
-		<update version="4.0.0">
+		<update version="5.0.0">
 			<file name="dragon_age.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/dragon_age.index"/>
 		</update>
 	</info>

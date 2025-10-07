@@ -2,9 +2,8 @@
 <info>
     <name>Feats</name>
     <description>Feats from Dragon Age</description>
-    <author url="">Dragon Age</author>
-    <update version="2.0.0">
-        <file name="feats.xml" url=""/>
+    <update version="5.0.0">
+        <file name="feats.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/feats.xml"/>
 </update>
 </info>
     <element name="Blood Magic" type="Feat" source="Dragon Age" id="ID_DA_FEAT_BLOOD_MAGIC">

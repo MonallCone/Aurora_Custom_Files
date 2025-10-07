@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Languages</name>
-		<update version="2.0.0">
-			<file name="languages.xml" url=""/>
+		<update version="5.0.0">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/languages.xml"/>
 		</update>
 	</info>
 

@@ -2,9 +2,8 @@
 <elements>
     <info>
         <name>Path of the Reaver</name>
-		<author url="">Dragon Age</author>
-        <update version="2.0.0">
-            <file name="barbarian-path-of-the-reaver.xml" url="" />
+        <update version="5.0.0">
+            <file name="barbarian-path-of-the-reaver.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/barbarian-path-of-the-reaver.xml" />
         </update>
     </info>
     
