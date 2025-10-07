@@ -9,7 +9,9 @@
 		</update>
 	</info>
 	<files>
-		<file name="feats.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/feats.xml" />
+		<file name="source.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/source.xml" />
+
+		<file name="feats.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/feats.xml" />
 
 		<file name="items-wondrous.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/items-wondrous.xml" />
 		<file name="languages.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/languages.xml" />
