@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="5.0.0">
-			<file name="sources.xml" url="dragon_age.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/sources.xml" />
 		</update>
 	</info>
 	<element name="Dragon Age" type="Source" source="Core" id="ID_DRAGON_AGE_SETTING">
