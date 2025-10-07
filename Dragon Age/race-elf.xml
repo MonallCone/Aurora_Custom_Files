@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Elf</name>
-		<update version="5.0.0">
+		<update version="7.0.0">
 			<file name="race-elf.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/race-elf.xml" />
 		</update>
 	</info>

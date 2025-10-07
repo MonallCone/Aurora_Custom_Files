@@ -1,7 +1,7 @@
 <elements>
     <info>
         <name>Dragon Age Spells</name>
-        <update version="5.0.0">
+        <update version="7.0.0">
             <file name="spells.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/spells.xml"/>
         </update>
     </info>

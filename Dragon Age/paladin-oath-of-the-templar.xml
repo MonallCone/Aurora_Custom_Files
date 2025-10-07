@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Oath of the Templar</name>
-        <update version="5.0.0">
+        <update version="7.0.0">
             <file name="paladin-oath-of-the-templar.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/paladin-oath-of-the-templar.xml" />
         </update>
     </info>

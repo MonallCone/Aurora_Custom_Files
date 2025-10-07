@@ -2,7 +2,7 @@
 <info>
     <name>Feats</name>
     <description>Feats from Dragon Age</description>
-    <update version="5.0.0">
+    <update version="7.0.0">
         <file name="feats.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/feats.xml"/>
 </update>
 </info>
