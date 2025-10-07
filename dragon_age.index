@@ -4,12 +4,12 @@
 		<name>Dragon Age</name>
 		<description>Dragon age dnd 5e custome files</description>
 		<author>Monall Cone</author>
-		<update version="2.0.0">
+		<update version="3.0.0">
 			<file name="dragon_age.index" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/dragon_age.index"/>
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/source.xml" />
+		<file name="sources.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/sources.xml" />
 
 		<file name="feats.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/feats.xml" />
 
