@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="languages.xml" url=""/>
+		</update>
+	</info>
+
+	<element name="Elvhen" type="Language" source="Dragon Age" id="ID_LANGUAGE_ELVHEN">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by dalish elves</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Dalish Elves</set>
+			<set name="script">Elvhen</set>
+		</setters>
+	</element>
+    
+    <element name="Qunlat" type="Language" source="Dragon Age" id="ID_LANGUAGE_QUNLAT">
+		<supports>Exotic</supports>
+		<description>
+			<p>Typically spoken by qunari or members of the Qun</p>
+		</description>
+		<setters>
+			<set name="exotic">true</set>
+			<set name="speakers">Qunari</set>
+			<set name="script">Qunlat</set>
+		</setters>
+	</element>
+
+</elements>

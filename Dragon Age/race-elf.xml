@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Elf</name>
+		<update version="0.2">
+			<file name="race-elf.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Elf" type="Race" source="Dragon Age" id="ID_RACE_DA_ELF">
+		<description>
+			<p class="flavor">The elves of Thedas are a slender, agile people whose history is marked by loss and subjugation. Once an immortal race connected to powerful magic, they now live much shorter lives, and their heritage is divided between the urban City Elves and the nomadic Dalish Elves.</p>
+            
+			<h4>ELF TRAITS</h4>
+			<p>Your elf character has a variety of natural abilities, the result of thousands of years of elven refinement.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong>Elves mature at the same rate as humans and rarely live longer than 70 to 80 years.</p>
+			<p class="indent"><strong><em>Size.</em></strong>Elves are shorter and more slender than humans, standing between 5 and 5'6 feet tall. Your size is Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Keen Sight</em></strong> You have proficiency in the Perception skill.</p>
+			<p class="indent"><strong><em>Drawn to the Fade</em></strong> You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+			<p class="indent"><strong><em>Languages.</em></strong>You can speak, read, and write Common.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong>The elven people are scattered and lost seperated now into two distinct groups city elfs raised within human cities and human cukture and dalish elfs wanderers sworn to remeber there ancestors and the ancient elves that came before them</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2"/>
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SIGHT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DRAWN_TO_THE_FADE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DA_ELVEN_SUBRACE" />
+		</rules>
+	</element>
+	<element name="Keen Sight" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_KEEN_SIGHT">
+		<description>
+			<p>You have proficiency in the Perception skill.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency in the Perception skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+		</rules>
+	</element>
+	<element name="Drawn to the Fade" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_DRAWN_TO_THE_FADE">
+		<description>
+			<p>You have advantage on saving throws against being charmed, and magic can’t put you to sleep.</p>
+		</description>
+		<sheet>
+			<description>Advantage on saving throws against being charmed, and magic can’t put you to sleep.</description>
+		</sheet>
+	</element>
+	<element name="Elven Subrace" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_DA_ELVEN_SUBRACE">
+		<description>
+			<p>The elven people are scattered and lost seperated now into two distinct groups city elfs raised within human cities and human cukture and dalish elfs wanderers sworn to remeber there ancestors and the ancient elves that came before them</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Sub Race" name="Elven Subrace" supports="Dragon Age Elf" />
+		</rules>
+	</element>
+
+	<element name="City Elf" type="Sub Race" source="Dragon Age" id="ID_SUB_RACE_CITY_ELF">
+		<supports>Dragon Age Elf</supports>
+		<description>
+			<p>City Elves live in human-dominated settlements, often confined to alienages. Generations of oppression have made them resilient and resourceful, but many dream of freedom and dignity.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Streetwise.</em></strong>You are proficient in the Insight skill, reflecting your ability to navigate social situations and detect lies.</p>
+			<p class="indent"><strong><em>Enduring Spirit.</em></strong>Your years of enduring hardship have hardened you. When you roll a saving throw against being frightened or paralyzed, you can roll with advantage.</p>
+			<p class="indent"><strong><em>Urban Adaptation.</em></strong>You are proficient in one tool and one weapon of your choice that reflects your life in the city, such as thieves' tools or a simple melee weapon like a club or dagger.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Increase, City Elf" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_STRENGTH|ID_PHB_FEAT_ASI_CHARISMA"/>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STREETWISE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ENDURING_SPIRIT" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_URBAN_ADAPTATION" />
+		</rules>
+	</element> 	
+	<element name="Streetwise" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_STREETWISE">
+		<description>
+			<p>You are proficient in the Insight skill, reflecting your ability to navigate social situations and detect lies.</p>
+		</description>
+		<sheet display="false">
+			<description>You have proficiency with the longsword, shortsword, shortbow, and longbow.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+		</rules>
+	</element>
+	<element name="Enduring Spirit" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_ENDURING_SPIRIT">
+		<description>
+			<p>Your years of enduring hardship have hardened you. When you roll a saving throw against being frightened or paralyzed, you can roll with advantage.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened or paralyzed</description>
+		</sheet>
+	</element>
+	<element name="Urban Adaptation" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_URBAN_ADAPTATION">
+		<description>
+			<p>You are proficient in one tool and one weapon of your choice that reflects your life in the city, such as thieves' tools or a simple melee weapon like a club or dagger.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Tool Proficiency (City Elf)" supports="Tool" number="1"/>
+            <select type="Proficiency" name="Weapon Proficiency (City Elf)" supports="Weapon" number="1"/>
+		</rules>
+	</element>
+
+	<element name="Dalish Elf" type="Sub Race" source="Dragon Age" id="ID_SUB_RACE_DALISH_ELF">
+		<supports>Dragon Age Elf</supports>
+		<description>
+			<p>Dalish Elves are nomadic, fiercely protective of their traditions, and deeply connected to nature. They travel in small clans, preserving what remains of their culture and the old ways.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
+            <p class="indent"><strong><em>Natural Explorer.</em></strong>You gain proficiency in the Survival skill. Additionally, when traveling in forests, you can move stealthily at a normal pace.</p>
+			<p class="indent"><strong><em>Dalish Weapon Training.</em></strong>You have proficiency with the longbow, shortbow, and scimitar.</p>
+			<p class="indent"><strong><em>Spirit Touched.</em></strong>You know the druidcraft cantrip. Starting at 3rd level, you can cast the hunter's mark spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+			<p class="indent"><strong><em>Perserver of Lore.</em></strong>You can speak, read, and write Elvhen, the ancient language of the elves, passed down through Dalish oral tradition.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_NATURAL_EXPLORER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DALISH_WEAPON_TRAINING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIRIT_TOUCHED" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_PERSERVER_OF_LORE" />
+		</rules>
+	</element>
+    <element name="Natural Explorer" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_NATURAL_EXPLORER">
+		<description>
+			<p>You gain proficiency in the Survival skill. Additionally, when traveling in forests, you can move stealthily at a normal pace.</p>
+		</description>
+		<sheet>
+			<description>When traveling in forests, you can move stealthily at a normal pace</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+    <element name="Dalish Weapon Training" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_DALISH_WEAPON_TRAINING">
+		<description>
+			<p>You have proficiency with the longbow, shortbow, and scimitar.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR"/>
+		</rules>
+	</element>
+	<element name="Spirit Touched" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_SPIRIT_TOUCHED">
+		<description>
+			<p>You know the druidcraft cantrip. Starting at 3rd level, you can cast the hunter's mark spell once with this trait and regain the ability to do so when you finish a long rest. Wisdom is your spellcasting ability for these spells.</p>
+		</description>
+        <sheet usage="1/Long Rest">
+            <description level="3">You can cast hunter's mark without expending a spell slot</description>
+        </sheet>
+		<rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DRUIDCRAFT" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_HUNTERS_MARK" level="3" />
+		</rules>
+	</element>
+	<element name="Perserver of Lore" type="Racial Trait" source="Dragon Age" id="ID_RACIAL_TRAIT_PERSERVER_OF_LORE">
+		<description>
+			<p>You can speak, read, and write Elvhen, the ancient language of the elves, passed down through Dalish oral tradition.</p>
+		</description>
+		<sheet display="false" />
+        <rules>
+            <grant type="Language" id="ID_LANGUAGE_ELVHEN" />
+        </rules>
+	</element>
+</elements>

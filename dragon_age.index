@@ -5,21 +5,20 @@
 		<description>Dragon age dnd 5e custome files</description>
 		<author>Monall Cone</author>
 		<update version="0.1.7">
-			<file name="dragon_age.index" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age"/>
+			<file name="dragon_age.index" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/dragon_age.index"/>
 		</update>
 	</info>
 	<files>
 		<file name="feats.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/feats.xml" />
 
-		<file name="items-wondrous.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/items-wondrous.xml" />
-		<file name="languages.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/languages.xml" />
-		<file name="spells.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Misc/spells.xml" />
-		<file name="race-elf.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Races/race-elf.xml" />
-		<file name="race-qunari.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Races/qunari.xml" />
+		<file name="items-wondrous.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/items-wondrous.xml" />
+		<file name="languages.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/languages.xml" />
+		<file name="spells.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/spells.xml" />
+		<file name="race-elf.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/race-elf.xml" />
+		<file name="race-qunari.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/qunari.xml" />
 
-		<file name="barbarian-path-of-the-reaver.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Subclasses/barbarian-path-of-reaver.xml" />
-		<file name="paladin-oath-of-the-templar.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Subclasses/paladin-oath-of-the-templar.xml" />
-		<file name="warlock-sloth-demon.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/Subclasses/warlock-sloth-demon.xml" />
-		<file name="cleric-zeal.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/unearthed-arcana/planeshift/amonkhet/cleric-zeal.xml" />
+		<file name="barbarian-path-of-the-reaver.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/barbian-path-of-reaver.xml" />
+		<file name="paladin-oath-of-the-templar.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/templar-oath-of-the-templar.xml" />
+		<file name="warlock-sloth-demon.xml" url="https://github.com/MonallCone/Aurora_Custom_Files/tree/main/Dragon%20Age/warlock-sloth-demon.xml" />
 	</files>
 </index>

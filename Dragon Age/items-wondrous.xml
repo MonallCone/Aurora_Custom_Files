@@ -1,0 +1,481 @@
+<elements>
+    <info>
+        <name>Wondrous Items</name>
+        <update version="0.0.7">
+            <file name="items-wondrous.xml" url=""/>
+        </update>
+    </info>
+    <element name="Paralyze Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_PARALYZE_RUNE">
+        <description>
+            <p>This rune allows you to attempt to paralyze a creature when activated. The rune must be attached to a weapon, and once applied, it cannot be removed without destroying the rune and possibly the weapon.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon to Legendary</set>
+            <set name="activation">Roll a d100. On a roll of 90-100 (10% chance), the rune activates.</set>
+            <set name="effect">
+                Upon activation, the target must make a Constitution saving throw. On a failed save, the target is paralyzed for 1 round. 
+                The difficulty and duration increase with the rune’s strength:
+                <ul>
+                    <li>Novice: DC 13, paralysis lasts 1 round.</li>
+                    <li>Journeyman: DC 14, paralysis lasts 1 round.</li>
+                    <li>Expert: DC 15, paralysis lasts 1 round.</li>
+                    <li>Master: DC 16, paralysis lasts 1 round.</li>
+                    <li>Grandmaster: DC 17, paralysis lasts 1 round.</li>
+                    <li>Masterpiece: DC 18, paralysis lasts 1 round.</li>
+                    <li>Paragon: DC 19, paralysis lasts 1 round.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune regains its use after a long rest.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Slow Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SLOW_RUNE">
+        <description>
+            <p>This rune allows you to slow a target when activated. The rune must be attached to a weapon, and once applied, it cannot be removed without destroying the rune and possibly the weapon.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Uncommon to Legendary</set>
+            <set name="activation">Roll a d100. On a roll of 90-100 (10% chance), the rune activates.</set>
+            <set name="effect">
+                Upon activation, the target must make a Dexterity saving throw to resist the effect. On a failed save, the target’s movement speed is reduced for 1 minute. 
+                The reduction increases with the rune’s strength:
+                <ul>
+                    <li>Novice: DC 13, reduce movement speed by 10 feet.</li>
+                    <li>Journeyman: DC 14, reduce movement speed by 15 feet.</li>
+                    <li>Expert: DC 15, reduce movement speed by 20 feet.</li>
+                    <li>Master: DC 16, reduce movement speed by 25 feet.</li>
+                    <li>Grandmaster: DC 17, reduce movement speed by 30 feet.</li>
+                    <li>Masterpiece: DC 18, reduce movement speed by 35 feet.</li>
+                    <li>Paragon: DC 19, reduce movement speed by 40 feet.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune regains its use after a long rest.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Cold Iron Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_COLD_IRON_RUNE">
+        <description>
+            <p>This rune imbues a weapon with the power of cold iron, making it especially effective against undead. The damage dealt to undead increases with the rarity of the rune.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional damage to undead.</set>
+            <set name="effect">
+                The damage against undead increases with the rune’s strength:
+                <ul>
+                    <li>Novice: +2 damage against undead.</li>
+                    <li>Journeyman: +4 damage against undead.</li>
+                    <li>Expert: +6 damage against undead.</li>
+                    <li>Master: +8 damage against undead.</li>
+                    <li>Grandmaster: +10 damage against undead.</li>
+                    <li>Masterpiece: +12 damage against undead.</li>
+                    <li>Paragon: +14 damage against undead.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune is permanent once applied.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Flame Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_FLAME_RUNE">
+        <description>
+            <p>This rune imbues a weapon with the power of flame, adding fire damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional fire damage.</set>
+            <set name="effect">
+                The fire damage increases with the rune’s strength:
+                <ul>
+                    <li>Novice: +1 fire damage.</li>
+                    <li>Journeyman: +2 fire damage.</li>
+                    <li>Expert: +3 fire damage.</li>
+                    <li>Master: +4 fire damage.</li>
+                    <li>Grandmaster: +5 fire damage.</li>
+                    <li>Masterpiece: +6 fire damage.</li>
+                    <li>Paragon: +7 fire damage.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune is permanent once applied.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+        <element name="Frost Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_FROST_RUNE">
+        <description>
+            <p>This rune imbues a weapon with the chilling power of frost, adding cold damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional cold damage.</set>
+            <set name="effect">
+                The cold damage increases with the rune’s strength:
+                <ul>
+                    <li>Novice: +1 cold damage.</li>
+                    <li>Journeyman: +2 cold damage.</li>
+                    <li>Expert: +3 cold damage.</li>
+                    <li>Master: +4 cold damage.</li>
+                    <li>Grandmaster: +5 cold damage.</li>
+                    <li>Masterpiece: +6 cold damage.</li>
+                    <li>Paragon: +7 cold damage.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune is permanent once applied.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Lightning Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_LIGHTNING_RUNE">
+        <description>
+            <p>This rune imbues a weapon with the crackling power of lightning, adding lightning damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional lightning damage.</set>
+            <set name="effect">
+                The lightning damage increases with the rune’s strength:
+                <ul>
+                    <li>Novice: +1 lightning damage.</li>
+                    <li>Journeyman: +2 lightning damage.</li>
+                    <li>Expert: +3 lightning damage.</li>
+                    <li>Master: +4 lightning damage.</li>
+                    <li>Grandmaster: +5 lightning damage.</li>
+                    <li>Masterpiece: +6 lightning damage.</li>
+                    <li>Paragon: +7 lightning damage.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune is permanent once applied.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Acid Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_ACID_RUNE">
+        <description>
+            <p>This rune imbues a weapon with acidic power, adding acid damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional acid damage.</set>
+            <set name="effect">
+                The acid damage increases with the rune’s strength:
+                <ul>
+                    <li>Novice: +1 acid damage.</li>
+                    <li>Journeyman: +2 acid damage.</li>
+                    <li>Expert: +3 acid damage.</li>
+                    <li>Master: +4 acid damage.</li>
+                    <li>Grandmaster: +5 acid damage.</li>
+                    <li>Masterpiece: +6 acid damage.</li>
+                    <li>Paragon: +7 acid damage.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune is permanent once applied.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Poison Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_POISON_RUNE">
+        <description>
+            <p>This rune imbues a weapon with poisonous power, adding poison damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional poison damage.</set>
+            <set name="effect">
+                <ul>
+                    <li>Novice: +1 poison damage.</li>
+                    <li>Journeyman: +2 poison damage.</li>
+                    <li>Expert: +3 poison damage.</li>
+                    <li>Master: +4 poison damage.</li>
+                    <li>Grandmaster: +5 poison damage.</li>
+                    <li>Masterpiece: +6 poison damage.</li>
+                    <li>Paragon: +7 poison damage.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune regains its use after a long rest.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Thunder Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_THUNDER_RUNE">
+        <description>
+            <p>This rune imbues a weapon with the power of thunder, adding thunder damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional thunder damage.</set>
+            <set name="effect">
+                <ul>
+                    <li>Novice: +1 thunder damage.</li>
+                    <li>Journeyman: +2 thunder damage.</li>
+                    <li>Expert: +3 thunder damage.</li>
+                    <li>Master: +4 thunder damage.</li>
+                    <li>Grandmaster: +5 thunder damage.</li>
+                    <li>Masterpiece: +6 thunder damage.</li>
+                    <li>Paragon: +7 thunder damage.</li>
+                </ul>
+            </set>
+            <set name="recharge">The rune regains its use after a long rest.</set>
+            <set name="name-format">{{parent}} Rune</set>
+        </setters>
+    </element>
+
+    <element name="Radiant Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_RADIANT_RUNE">
+        <description>
+            <p>This rune imbues a weapon with radiant energy, adding radiant damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional radiant damage.</set>
+            <set name="effect">
+                <ul>
+                    <li>Novice: +2 radiant damage.</li>
+                    <li>Journeyman: +4 radiant damage.</li>
+                    <li>Expert: +6 radiant damage.</li>
+                    <li>Master: +8 radiant damage.</li>
+                    <li>Grandmaster: +10 radiant damage.</li>
+                    <li>Masterpiece: +12 radiant damage.</li>
+                    <li>Paragon: +14 radiant damage.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Necrotic Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_NECROTIC_RUNE">
+        <description>
+            <p>This rune imbues a weapon with necrotic energy, adding necrotic damage with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional necrotic damage.</set>
+            <set name="effect">
+                <ul>
+                    <li>Novice: +2 necrotic damage.</li>
+                    <li>Journeyman: +4 necrotic damage.</li>
+                    <li>Expert: +6 necrotic damage.</li>
+                    <li>Master: +8 necrotic damage.</li>
+                    <li>Grandmaster: +10 necrotic damage.</li>
+                    <li>Masterpiece: +12 necrotic damage.</li>
+                    <li>Paragon: +14 necrotic damage.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Silverite Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SILVERITE_RUNE">
+        <description>
+            <p>This rune imbues a weapon with the power of silverite, making it especially effective against darkspawn. The damage dealt to darkspawn increases with the rarity of the rune.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional damage to darkspawn.</set>
+            <set name="effect">
+                <ul>
+                    <li>Novice: +2 damage against darkspawn.</li>
+                    <li>Journeyman: +4 damage against darkspawn.</li>
+                    <li>Expert: +6 damage against darkspawn.</li>
+                    <li>Master: +8 damage against darkspawn.</li>
+                    <li>Grandmaster: +10 damage against darkspawn.</li>
+                    <li>Masterpiece: +12 damage against darkspawn.</li>
+                    <li>Paragon: +14 damage against darkspawn.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Sunder the Veil Rune" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SUNDER_THE_VEIL_RUNE">
+        <description>
+            <p>This rune imbues a weapon with the power to deal extra damage to mages, demons, and abominations, increasing with each rarity tier.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Novice to Paragon</set>
+            <set name="activation">The weapon imbued with this rune deals additional damage to mages, demons, and abominations.</set>
+            <set name="effect">
+                <ul>
+                    <li>Novice: +1 damage against mages, demons, and abominations.</li>
+                    <li>Journeyman: +2 damage against mages, demons, and abominations.</li>
+                    <li>Expert: +3 damage against mages, demons, and abominations.</li>
+                    <li>Master: +4 damage against mages, demons, and abominations.</li>
+                    <li>Grandmaster: +5 damage against mages, demons, and abominations.</li>
+                    <li>Masterpiece: +6 damage against mages, demons, and abominations.</li>
+                    <li>Paragon: +7 damage against mages, demons, and abominations.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+    
+    <element name="Sigil of Fortitude" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_FORTITUDE">
+        <description>
+            <p>This sigil imbues armor with enhanced durability, significantly increasing its protective qualities at the cost of the wearer’s health.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="activation">While wearing armor imbued with this sigil, your health is halved, but your Armor Class increases by 6.</set>
+            <set name="effect">
+                <ul>
+                    <li>Health is reduced by half (rounded down) of the wearer’s maximum hit points.</li>
+                    <li>AC increases by +6.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Sigil of Elemental Resistance" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_ELEMENTAL_RESISTANCE">
+        <description>
+            <p>This sigil imbues armor with resistance to all elemental attacks but exposes the wearer to increased damage from physical attacks.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Very Rare</set>
+            <set name="activation">While wearing armor imbued with this sigil, you gain resistance to all elemental damage but become vulnerable to piercing, slashing, and bludgeoning damage.</set>
+            <set name="effect">
+                <ul>
+                    <li>Resistance to all elemental damage (fire, cold, lightning, acid, thunder).</li>
+                    <li>Vulnerability to piercing, bludgeoning, and slashing damage.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Sigil of Elemental Favor" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_ELEMENTAL_FAVOR">
+        <description>
+            <p>This sigil imbues armor with an unpredictable power that enhances the wearer’s ability to strike with a elemental attack attacks while making all other attacks less effective.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="activation">While wearing armor imbued with this sigil, choose between (fire, ice, lightning, thunder and acid) and the selected elemental type's attacks gain a +3 bonus to hit, but all other attacks suffer a -3 penalty to hit. You cannot change the element once selected</set>
+            <set name="effect">
+                <ul>
+                    <li>+3 bonus to hit with selected element attacks.</li>
+                    <li>-3 penalty to hit with all other attacks (melee, ranged, and magical).</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Sigil of Darkspawn's Wrath" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_DARKSPAWN_WRATH">
+        <description>
+            <p>This sigil imbues armor with a powerful affinity for darkspawn, granting a significant advantage in combat against them but making the wearer vulnerable to other foes.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="activation">While wearing armor imbued with this sigil, you gain a +5 bonus to attack and damage rolls against darkspawn, but all other enemies gain advantage on attack rolls against you.</set>
+            <set name="effect">
+                <ul>
+                    <li>+5 bonus to attack and damage rolls against darkspawn.</li>
+                    <li>All other enemies gain advantage on attack rolls against the wearer.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Sigil of Glacial Resilience" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_GLACIAL_RESILIENCE">
+        <description>
+            <p>This sigil imbues armor with the power of the cold, granting resistance to cold damage and the ability to cast **Cone of Cold** once per day, but leaves the wearer vulnerable to fire.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="activation">While wearing armor imbued with this sigil, the wearer gains resistance to cold damage, can cast **Cone of Cold** once per day, but becomes vulnerable to fire damage (taking double damage from all fire-based attacks).</set>
+            <set name="effect">
+                <ul>
+                    <li>Resistance to cold damage.</li>
+                    <li>Can cast **Cone of Cold** once per day (as an action).</li>
+                    <li>Vulnerable to fire damage (taking double damage from all fire-based attacks).</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+
+    <element name="Sigil of the Shadow's Embrace" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_SHADOW_EMBRACE">
+        <description>
+            <p>This sigil imbues armor with the power of shadows, allowing the wearer to move through darkness with ease, but rendering them blind in bright light.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="type">Wondrous Item</set>
+            <set name="rarity">Rare</set>
+            <set name="activation">While wearing armor imbued with this sigil, the wearer can move through shadows as if under the **Misty Step** spell once per short rest, and gain advantage on Stealth checks, but becomes blind in bright light or sunlight.</set>
+            <set name="effect">
+                <ul>
+                    <li>Can move through shadows as if under the **Misty Step** spell once per short rest.</li>
+                    <li>Advantage on Stealth checks.</li>
+                    <li>Blinded in bright light or sunlight.</li>
+                </ul>
+            </set>
+        </setters>
+    </element>
+</elements>
