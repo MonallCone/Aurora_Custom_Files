@@ -4,7 +4,7 @@
 		<name>Dragon Age</name>
 		<description>Dragon age dnd 5e custom files</description>
 		<author>Monall Cone</author>
-		<update version="7.0.0">
+		<update version="8.0.0">
 			<file name="dragon_age.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/dragon_age.index"/>
 		</update>
 	</info>
@@ -19,7 +19,7 @@
 		<file name="race-elf.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/race-elf.xml" />
 		<file name="race-qunari.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/race-qunari.xml" />
 
-		<file name="barbarian-path-of-the-reaver.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/barbarian-path-of-reaver.xml" />
+		<file name="barbarian-path-of-the-reaver.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/barbarian-path-of-the-reaver.xml" />
 		<file name="paladin-oath-of-the-templar.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/paladin-oath-of-the-templar.xml" />
 		<file name="warlock-sloth-demon.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/warlock-sloth-demon.xml" />
 	</files>
