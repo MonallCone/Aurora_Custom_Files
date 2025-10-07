@@ -42,7 +42,7 @@
 		<description>
 			<p>You have disadvantage on charisma saving throws against spells and magical effects. Your connection to magic is strained, particularly with the manipulation of emotions, willpower, and charm.</p>
 		</description>
-		<sheet display="false">
+		<sheet>
 			<description>You have disadvantage on charisma saving throws against magic</description>
 		</sheet>
 	</element>
