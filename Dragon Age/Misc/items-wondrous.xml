@@ -18,7 +18,7 @@
             <set name="activation">Roll a d100. On a roll of 90-100 (10% chance), the rune activates.</set>
             <set name="effect">
                 Upon activation, the target must make a Constitution saving throw. On a failed save, the target is paralyzed for 1 round. 
-                The difficulty and duration increase with the rune’s strength:
+                The difficulty and duration increase with the runes strength:
                 <ul>
                     <li>Novice: DC 13, paralysis lasts 1 round.</li>
                     <li>Journeyman: DC 14, paralysis lasts 1 round.</li>
@@ -46,8 +46,8 @@
             <set name="rarity">Uncommon to Legendary</set>
             <set name="activation">Roll a d100. On a roll of 90-100 (10% chance), the rune activates.</set>
             <set name="effect">
-                Upon activation, the target must make a Dexterity saving throw to resist the effect. On a failed save, the target’s movement speed is reduced for 1 minute. 
-                The reduction increases with the rune’s strength:
+                Upon activation, the target must make a Dexterity saving throw to resist the effect. On a failed save, the targets movement speed is reduced for 1 minute. 
+                The reduction increases with the runes strength:
                 <ul>
                     <li>Novice: DC 13, reduce movement speed by 10 feet.</li>
                     <li>Journeyman: DC 14, reduce movement speed by 15 feet.</li>
@@ -75,7 +75,7 @@
             <set name="rarity">Novice to Paragon</set>
             <set name="activation">The weapon imbued with this rune deals additional damage to undead.</set>
             <set name="effect">
-                The damage against undead increases with the rune’s strength:
+                The damage against undead increases with the runes strength:
                 <ul>
                     <li>Novice: +2 damage against undead.</li>
                     <li>Journeyman: +4 damage against undead.</li>
@@ -103,7 +103,7 @@
             <set name="rarity">Novice to Paragon</set>
             <set name="activation">The weapon imbued with this rune deals additional fire damage.</set>
             <set name="effect">
-                The fire damage increases with the rune’s strength:
+                The fire damage increases with the runes strength:
                 <ul>
                     <li>Novice: +1 fire damage.</li>
                     <li>Journeyman: +2 fire damage.</li>
@@ -131,7 +131,7 @@
             <set name="rarity">Novice to Paragon</set>
             <set name="activation">The weapon imbued with this rune deals additional cold damage.</set>
             <set name="effect">
-                The cold damage increases with the rune’s strength:
+                The cold damage increases with the runes strength:
                 <ul>
                     <li>Novice: +1 cold damage.</li>
                     <li>Journeyman: +2 cold damage.</li>
@@ -159,7 +159,7 @@
             <set name="rarity">Novice to Paragon</set>
             <set name="activation">The weapon imbued with this rune deals additional lightning damage.</set>
             <set name="effect">
-                The lightning damage increases with the rune’s strength:
+                The lightning damage increases with the runes strength:
                 <ul>
                     <li>Novice: +1 lightning damage.</li>
                     <li>Journeyman: +2 lightning damage.</li>
@@ -187,7 +187,7 @@
             <set name="rarity">Novice to Paragon</set>
             <set name="activation">The weapon imbued with this rune deals additional acid damage.</set>
             <set name="effect">
-                The acid damage increases with the rune’s strength:
+                The acid damage increases with the runes strength:
                 <ul>
                     <li>Novice: +1 acid damage.</li>
                     <li>Journeyman: +2 acid damage.</li>
@@ -359,7 +359,7 @@
     
     <element name="Sigil of Fortitude" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_FORTITUDE">
         <description>
-            <p>This sigil imbues armor with enhanced durability, significantly increasing its protective qualities at the cost of the wearer’s health.</p>
+            <p>This sigil imbues armor with enhanced durability, significantly increasing its protective qualities at the cost of the wearers health.</p>
         </description>
         <setters>
             <set name="category">Wondrous Items</set>
@@ -370,7 +370,7 @@
             <set name="activation">While wearing armor imbued with this sigil, your health is halved, but your Armor Class increases by 6.</set>
             <set name="effect">
                 <ul>
-                    <li>Health is reduced by half (rounded down) of the wearer’s maximum hit points.</li>
+                    <li>Health is reduced by half (rounded down) of the wearers maximum hit points.</li>
                     <li>AC increases by +6.</li>
                 </ul>
             </set>
@@ -399,7 +399,7 @@
 
     <element name="Sigil of Elemental Favor" type="Magic Item" source="Dragon Age" id="ID_DA_MAGIC_ITEM_SIGIL_ELEMENTAL_FAVOR">
         <description>
-            <p>This sigil imbues armor with an unpredictable power that enhances the wearer’s ability to strike with a elemental attack attacks while making all other attacks less effective.</p>
+            <p>This sigil imbues armor with an unpredictable power that enhances the wearers ability to strike with a elemental attack attacks while making all other attacks less effective.</p>
         </description>
         <setters>
             <set name="category">Wondrous Items</set>

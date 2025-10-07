@@ -22,10 +22,10 @@
                         <li>Casting Blood Magic spells costs:
                             <ul>
                                 <li>Cantrip: 1 hit point.</li>
-                                <li>Levelled spells: 4 × the spell’s level in hit points.</li>
+                                <li>Levelled spells: 4 times the spells level in hit points.</li>
                             </ul>
                         </li>
-                        <li>You may use your own hit points, a willing ally’s, or pool hit points from multiple willing creatures within 30 feet to pay the cost.</li>
+                        <li>You may use your own hit points, a willing allies, or pool hit points from multiple willing creatures within 30 feet to pay the cost.</li>
                     </ul>
                 </li>
                 <li>When a magical mishap occurs due to a Blood Magic spell:
@@ -63,7 +63,7 @@
                 <li>You gain 1 corruption point when taking this feat expressing the danger found in the fade and how your unique presense when there attracts various demons and spirits</li>
                 <li>Ritual Casting: You learn one ritual spell of your choice from the Divination, Illusion, or Necromancy schools of magic. This spell can be of a level you can cast, and it does not count against your number of spells known. You can cast this spell as a ritual without expending a spell slot, following the normal rules for ritual casting.</li>
                 <li>Dreamstrider: Increase 1 ability score of your choice, Charisma, Intelligence or Wisdom</li>
-                <li>Fade’s Embrace: You can cast Fade Step once per long rest without expending a spell slot. When you do, you momentarily phase into the Fade and reappear in the physical world, leaving behind an ethereal afterimage for a brief moment. </li>
+                <li>Fades Embrace: You can cast Fade Step once per long rest without expending a spell slot. When you do, you momentarily phase into the Fade and reappear in the physical world, leaving behind an ethereal afterimage for a brief moment. </li>
                 <li>Unearthly Knowledge: You can speak, read, and understand one language of your choice from creatures that dwell within the Fade, such as spirits, demons, or ancient beings. This language may also be one tied to dreams or long-lost knowledge.</li>
             </ul>
         </description>
