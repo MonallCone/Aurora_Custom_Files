@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sloth Demon</name>
-    <update version="12.0.0">
+    <update version="13.0.0">
       <file name="warlock-sloth-demon.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/warlock-sloth-demon.xml" />
     </update>
   </info>
@@ -16,7 +16,7 @@
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_AURA_OF_LANGOUR" />
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_LETHARGIC_IMMUNITY" />
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_WASTING_AWAY" />
-      <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHFUL_HINDERENCE" />
+      <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_DROWSY_AGGRESSION" />
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_KISS_OF_SLUMBER" />
     </description>
     <sheet display="false">
