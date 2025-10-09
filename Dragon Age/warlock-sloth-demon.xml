@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sloth Demon</name>
-    <update version="13.0.0">
+    <update version="14.0.0">
       <file name="warlock-sloth-demon.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/warlock-sloth-demon.xml" />
     </update>
   </info>
@@ -156,7 +156,7 @@
         <description>
           <p>At 10th level, your patron's influence allows you to endure the passage of time more easily, while your enemies falter under their own weight. When you area attacked as a reaction you can make the attacker make a wisdom saving throw, on fail they miss their attack and gain 1 level of exhaustion. Additionally you heal for 1d10 + charisma modifier. You can use this number of times equal to your charisma modifier</p>
         </description>
-        <sheet action="Reaction" usage="{{charimsa:modifier}}/Long Rest">
+        <sheet action="Reaction" usage="{{charisma:modifier}}/Long Rest">
           <description>When attacked you can make the enemy make a DC{{drowsy-aggression:dc}} Wisdom save, on fail they miss their attack and gain a level of exhaustion and you heal for 1d10+{{charisma:modifier}}</description>
         </sheet>
         <rules>
