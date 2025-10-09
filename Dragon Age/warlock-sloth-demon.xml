@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sloth Demon</name>
-    <update version="9.0.0">
+    <update version="10.0.0">
       <file name="warlock-sloth-demon.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/warlock-sloth-demon.xml" />
     </update>
   </info>
@@ -12,7 +12,7 @@
       <p>Sloth Demons are creatures of languor and apathy, manipulating the threads of time, sleep, and fatigue. A Warlock who forms a pact with a Sloth Demon taps into the power of inefficiency, drowsiness, and indulgence. Their power comes not from haste, but from the slow unraveling of willpower and energy, weakening their enemies with lethargy and time. Through this pact, they become masters of debilitating magic, inducing exhaustion and controlling the flow of rest.</p>
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_EXPANDED_SPELL_LIST" />
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_BONUS_SPELLS" />
-      <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_INDUCED_SLUMBER" />
+      <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHS_DREAM" />
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_AURA_OF_LANGOUR" />
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_LETHARGIC_IMMUNITY" />
       <div element="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_WASTING_AWAY" />
@@ -25,7 +25,7 @@
     <rules>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_EXPANDED_SPELL_LIST" level="1"/>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_BONUS_SPELLS" level="1"/>
-      <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_INDUCED_SLUMBER" level="1"/>
+      <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHS_DREAM" level="1"/>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_AURA_OF_LANGOUR" level="1"/>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_LETHARGIC_IMMUNITY" level="1"/>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_WASTING_AWAY" level="6"/>
@@ -50,7 +50,7 @@
       </table>
     </description>
     <sheet display="false">
-      <description>The Celestial lets you choose from an expanded list of spells when you learn a warlock spell.</description>
+      <description>The Sloth Demon lets you choose from an expanded list of spells when you learn a warlock spell.</description>
     </sheet>
     <spellcasting name="Warlock" extend="true">
       <extend>ID_PHB_SPELL_BANE</extend>
@@ -76,36 +76,21 @@
             <grant type="Spell" id="ID_PHB_SPELL_SLOW" level="5" spellcasting="Warlock" />
         </rules>
     </element>
-    <element name="Induced Slumber" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_INDUCED_SLUMBER">
+    <element name="Sloth's Dream" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHS_DREAM"> 
         <description>
-            <p>You have a pool of hit points equal to 10 times your Warlock level, which you can use to fuel your Sleep spell. As a reaction to being hit by an attack, you can spend hit points from your pool to cast Sleep on a target you can see within 60 feet, matching the hit point or exceeding will immediately cause the creature to fall asleep, failing to use the right amount of hit points the creature must make a charisma savuing throw against your spell save dc on fail has disadvantage on its next attack. Additionally, when you cast Sleep using a spell slot, you can add the hit points from your pool to the spell’s dice roll, increasing its effectiveness. Additionally creatures you sleep will not wake up from your attacks but still from other sources of damage or being shaken awake.</p>
+            <p>You gain the abilty to put a large number of enemies in a deep trance, Any enemy within a 10ft radius centered on you must make a DC save of your choosing against you warlock spell save DC. When an enemy is slept this way they repeat the saving throw at the end of each of their turns. A sleeping creature will wake up if they take damage unless the damage was dealt by you and is magical in nature. Any creature that wakes up from this cannot take reactions and speed is halved till the start of their next turn. Range increases by 5ft at levels 3, 6, 10 and 14</p>
         </description>
         <sheet>
-            <description usage="{{induced-slumber:pool}}/Short Rest">
-                <p>
-                    <ul>
-                        <li>As a Reaction to being attacked you can target any creature within 60 feet and use an amount of hit points in the pool to sleep the target. If you do not match the hit points to sleep the target they must make a DC{{induced-slumber:dc}} charisma saving throw or have disadvatage on their next attack.</li>
-                        <li> When you cast Sleep using a spell slot, you can add the hit points from your pool to the spell’s dice roll.</li>
-                        <li> Creatures you sleep will not wake up from your attacks but still from other sources of damage or being shaken awake. You can use the pool of hit points in various ways</li>
-                    </ul>
-                </p>             
+            <description usage="1/Short Rest">
+                <p>Centered on you any creature within {{sloths-dream:range}}ft must make a saving throw of your choice against your spell save DC. On fail they instantly fall asleep and will repeat the saving throw at the end of each of their next turns. They will wake if any damage is dealt to them unless that damage is a spell or cantrip from you instead they repeat the saving throw. Any creature that wakes up can't take reactions and speed is halved until the start of their next turn</p>
             </description>
         </sheet>
         <rules>
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            <stat name="induced-slumber:pool" value="level:warlock" />
-            
-            <stat name="induced-slumber:dc" value="8" />
-            <stat name="induced-slumber:dc" value="charisma:modifier" />
-            <stat name="induced-slumber:dc" value="proficiency" />
+          <stat name="sloths-dream:range" value="10" level="1"/>
+          <stat name="sloths-dream:range" value="15" level="3"/>
+          <stat name="sloths-dream:range" value="20" level="6"/>
+          <stat name="sloths-dream:range" value="25" level="10"/>
+          <stat name="sloths-dream:range" value="30" level="14"/>
         </rules>
     </element>
     <element name="Aura of Languor" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_AURA_OF_LANGOUR">
@@ -134,7 +119,7 @@
           <p>At 6th level, your powers over exhaustion and time deepen. You gain the following abilities
               <ul>
                     <li>
-                    <strong>Energy Drain</strong> When you hit a creature with an attack, you can choose to siphon some of their energy. The creature must succeed on a Constitution saving throw against your Warlock spell save DC or suffer a level of exhaustion. If they fail by 5 or more, they suffer 2 levels of exhaustion instead. You can use this feature number of times equal to you proficiency bonus, you recover all charges on a long rest.
+                    <strong>Slothful Hinderence</strong> When you hit a creature with an attack, you can choose to siphon some of their energy. The creature must succeed on a Wisdom saving throw against your Warlock spell save DC or suffer a level of exhaustion. If they fail by 5 or more, they suffer 2 levels of exhaustion instead. This feature does not stack but can affect multiple creatures at the same time. You can use this feature number of times equal to you proficiency bonus, you recover all charges on a long rest. Additionally when you hit a creature with exhaustaion you deal necrotic damage equal to your charisma modifier per level of exhaustion (max 3)
                     </li>
                     <li>
                     <strong>Slow Time</strong>Once per long rest, you can use an action to cast Slow without expending a spell slot. The duration is not affected by concentration and lasts for 1 minute. You can use this feature again after a long rest.
@@ -144,15 +129,22 @@
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Class Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_ENERGY_DRAIN"/>
+            <grant type="Class Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHFUL_HINDERENCE"/>
             <grant type="Class Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOW_TIME"/>
         </rules>
     </element>
-    <element name="Energy Drain" type="Class Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_ENERGY_DRAIN">
-        <description>When you hit a creature with an attack, you can choose to siphon some of their energy. The creature must succeed on a Constitution saving throw against your Warlock spell save DC or suffer a level of exhaustion. If they fail by 5 or more, they suffer 2 levels of exhaustion instead. Once you use this feature, You can use this feature number of times equal to you proficiency bonus, you recover all charges on a long rest</description>
-        <sheet action="Reaction" usage="{{proficiency}}/Long Rest">
-            <p >When you hit a creature with an attack, The creature must succeed on a Constitution saving throw or suffer a level of exhaustion. If they fail by 5 or more, they suffer 2 levels of exhaustion instead.</p>
+    <element name="Slothful Hinderence" type="Class Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHFUL_HINDERENCE">
+        <description>When you hit a creature with an attack, you can choose to siphon some of their energy. The creature must succeed on a Wisdom saving throw against your Warlock spell save DC or suffer a level of exhaustion. If they fail by 5 or more, they suffer 2 levels of exhaustion instead. This feature does not stack but can affect multiple creatures at the same time. You can use this feature number of times equal to you proficiency bonus, you recover all charges on a short rest. Additionally when you hit a creature with exhaustaion you deal necrotic damage equal to your charisma modifier per level of exhaustion (max 3)</description>
+        <sheet usage="{{proficiency}}/Short Rest">
+            <p >When you hit a creature with an attack, The creature must succeed on DC{{sloth-hinderence:dc}} Wisdom saving throw or suffer a level of exhaustion. If they fail by 5 or more, they suffer 2 levels of exhaustion instead. You deal {{sloth-hinderence:dmg}} necrotic damage per level of exhaustion (max 3 levels)</p>
         </sheet>
+        <rules>
+            <stat name="sloth-hinderence:dmg" value="1" bonus="s-h:dmg"/>
+            <stat name="sloth-hinderence:dmg" value="charisma:modifier" bonus="s-h:dmg"/>
+            <stat name="sloth-hinderence:dc" value="8" bonus="s-h:dc"/>
+            <stat name="sloth-hinderence:dc" value="proficiency" bonus="s-h:dc"/>
+            <stat name="sloth-hinderence:dc" value="charisma:modifier" bonus="s-h:dc"/>
+        </rules>
     </element>
     <element name="Slow Time" type="Class Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOW_TIME">
         <description>Once per long rest, you can use an action to cast Slow without expending a spell slot. The duration is not affected by concentration and lasts for 1 minute. You can use this feature again after a short rest.</description>
@@ -160,18 +152,17 @@
             <p>You can use an action to cast Slow without expending a spell slot. The duration is not affected by concentration and lasts for 1 minute.</p>
         </sheet>
     </element>
-    <element name="Slothful Hinderence" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHFUL_HINDERENCE">
+    <element name="Drowsy Aggresion" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON">
         <description>
-          <p>At 10th level, your patron's influence allows you to endure the passage of time more easily, while your enemies falter under their own weight. Whenever you deal damage to a creature that is suffering from exhaustion, you can deal additional necrotic damage equal to your Charisma modifier (minimum of 1) to that creature. If the creature has 2 or more levels of exhaustion, this damage increases to 2 times your Charisma modifier. </p>
+          <p>At 10th level, your patron's influence allows you to endure the passage of time more easily, while your enemies falter under their own weight. When you area attacked as a reaction you can make the attacker make a wisdom saving throw, on fail they miss their attack and gain 1 level of exhaustion. Additionally you heal for 1d10 + charisma modifier. You can use this number of times equal to your charisma modifier</p>
         </description>
-        <sheet>
-          <description>Whenever you deal damage to a creature that is suffering from exhaustion, you can deal additional {{sloth-hinderence-lvl1:dmg}} necrotic damage to that creature. If the creature has 2 or more levels of exhaustion, the damage is {{sloth-hinderence-lvl2:dmg}}</description>
+        <sheet action="Reaction" usage="{{charimsa:modifier}}/Long Rest">
+          <description>When attacked you can make the enemy make a DC{{drowsy-aggression:dc}} Wisdom save, on fail they miss their attack and gain a level of exhaustion and you heal for 1d10+{{charisma:modifier}}</description>
         </sheet>
         <rules>
-          <stat name="sloth-hinderence-lvl1:dmg" value="1" bonus="1 level"/>
-          <stat name="sloth-hinderence-lvl1:dmg" value="charisma:modifier" bonus="1 level"/>
-          <stat name="sloth-hinderence-lvl2:dmg" value="charisma:modifier"/>
-          <stat name="sloth-hinderence-lvl2:dmg" value="charisma:modifier"/>
+          <stat name="drowsy-aggression:dc" value="8" bonus="d-a:dc"/>
+          <stat name="drowsy-aggression:dc" value="proficiency" bonus="d-a:dc"/>
+          <stat name="drowsy-aggression:dc" value="charisma:modifier" bonus="d-a:dc"/>
         </rules>
   </element>
   <element name="Kiss of Slumber" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_KISS_OF_SLUMBER">
