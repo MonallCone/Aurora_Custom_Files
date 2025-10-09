@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Sloth Demon</name>
-    <update version="10.0.0">
+    <update version="12.0.0">
       <file name="warlock-sloth-demon.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/warlock-sloth-demon.xml" />
     </update>
   </info>
@@ -29,7 +29,7 @@
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_AURA_OF_LANGOUR" level="1"/>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_LETHARGIC_IMMUNITY" level="1"/>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_WASTING_AWAY" level="6"/>
-      <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOTHFUL_HINDERENCE" level="10"/>
+      <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_DROWSY_AGGRESSION" level="10"/>
       <grant type="Archetype Feature" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_KISS_OF_SLUMBER" level="14"/>
     </rules>
   </element>
@@ -87,10 +87,10 @@
         </sheet>
         <rules>
           <stat name="sloths-dream:range" value="10" level="1"/>
-          <stat name="sloths-dream:range" value="15" level="3"/>
-          <stat name="sloths-dream:range" value="20" level="6"/>
-          <stat name="sloths-dream:range" value="25" level="10"/>
-          <stat name="sloths-dream:range" value="30" level="14"/>
+          <stat name="sloths-dream:range" value="5" level="3"/>
+          <stat name="sloths-dream:range" value="5" level="6"/>
+          <stat name="sloths-dream:range" value="5" level="10"/>
+          <stat name="sloths-dream:range" value="5" level="14"/>
         </rules>
     </element>
     <element name="Aura of Languor" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_AURA_OF_LANGOUR">
@@ -141,9 +141,9 @@
         <rules>
             <stat name="sloth-hinderence:dmg" value="1" bonus="s-h:dmg"/>
             <stat name="sloth-hinderence:dmg" value="charisma:modifier" bonus="s-h:dmg"/>
-            <stat name="sloth-hinderence:dc" value="8" bonus="s-h:dc"/>
-            <stat name="sloth-hinderence:dc" value="proficiency" bonus="s-h:dc"/>
-            <stat name="sloth-hinderence:dc" value="charisma:modifier" bonus="s-h:dc"/>
+            <stat name="sloth-hinderence:dc" value="8"/>
+            <stat name="sloth-hinderence:dc" value="proficiency"/>
+            <stat name="sloth-hinderence:dc" value="charisma:modifier"/>
         </rules>
     </element>
     <element name="Slow Time" type="Class Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_SLOW_TIME">
@@ -152,7 +152,7 @@
             <p>You can use an action to cast Slow without expending a spell slot. The duration is not affected by concentration and lasts for 1 minute.</p>
         </sheet>
     </element>
-    <element name="Drowsy Aggresion" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON">
+    <element name="Drowsy Aggresion" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_DROWSY_AGGRESSION">
         <description>
           <p>At 10th level, your patron's influence allows you to endure the passage of time more easily, while your enemies falter under their own weight. When you area attacked as a reaction you can make the attacker make a wisdom saving throw, on fail they miss their attack and gain 1 level of exhaustion. Additionally you heal for 1d10 + charisma modifier. You can use this number of times equal to your charisma modifier</p>
         </description>
@@ -160,9 +160,9 @@
           <description>When attacked you can make the enemy make a DC{{drowsy-aggression:dc}} Wisdom save, on fail they miss their attack and gain a level of exhaustion and you heal for 1d10+{{charisma:modifier}}</description>
         </sheet>
         <rules>
-          <stat name="drowsy-aggression:dc" value="8" bonus="d-a:dc"/>
-          <stat name="drowsy-aggression:dc" value="proficiency" bonus="d-a:dc"/>
-          <stat name="drowsy-aggression:dc" value="charisma:modifier" bonus="d-a:dc"/>
+          <stat name="drowsy-aggression:dc" value="8"/>
+          <stat name="drowsy-aggression:dc" value="proficiency"/>
+          <stat name="drowsy-aggression:dc" value="charisma:modifier"/>
         </rules>
   </element>
   <element name="Kiss of Slumber" type="Archetype Feature" source="Dragon Age" id="ID_DA_ARCHETYPE_FEATURE_SLOTH_DEMON_KISS_OF_SLUMBER">
