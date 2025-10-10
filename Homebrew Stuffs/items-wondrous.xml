@@ -1,11 +1,11 @@
 <elements>
     <info>
         <name>Wondrous Items</name>
-        <update version="0.1.0">
+        <update version="1.0.0">
             <file name="items-wondrous.xml" url=""/>
         </update>
     </info>
-    <element name="Bag of Leeches" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_BAG_OF_LEECHES">
+    <element name="Bag of Leeches" type="Magic Item" source="Homebrew Stuffs" id="ID_HOMEBREW_BAG_OF_LEECHES">
         <description>
             <p>This damp, slimy bag is enchanted to summon leeches at dawn each day. The bag contains 1d10 <em>empty leeches</em>, which magically sustain themselves while inside the bag. Any leeches remaining at the next dawn, whether full or empty, shrivel up and die.</p>
             <p class="indent">An <em>empty leech</em> can be applied to a creature within 5 feet as an action. The leech drains <strong>1 hit point</strong> from the creature, becoming <em>full</em>. A <em>full leech</em> can then be fed to another creature within 5 feet as an action, restoring <strong>1 hit point</strong> to that creature.</p>
