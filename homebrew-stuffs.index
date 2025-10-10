@@ -4,12 +4,12 @@
 		<name>Homebrew Stuffs</name>
 		<description>Dumb Shit</description>
 		<author>Monall Cone</author>
-		<update version="1.0.0">
+		<update version="2.0.0">
 			<file name="homebrew-stuffs.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Homebrew%20Stuffs"/>
 		</update>
 	</info>
 	<files>
 			<file name="source.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Homebrew%20Stuffs/source.xml"> 
 			<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Homebrew%20Stuffs/items-wondrous.xml" />
-</files>
+	</files>
 </index>
