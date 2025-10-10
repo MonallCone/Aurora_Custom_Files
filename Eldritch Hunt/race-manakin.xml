@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Manakin</name>
-		<update version="1.0.0">
+		<update version="2.0.0">
 			<file name="race-manakin.xml" url="" />
 		</update>
 	</info>
@@ -41,10 +41,6 @@
         <p class="indent"><strong><em>Subraces</em></strong>Manikins can be created for a variety of purposes, but they are mostly divided into three subraces: Custodian, Handler, and Thespian. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d10">4'0"</set>
-			<set name="weight" modifier="1d4">100 lb.</set>
-		</setters>
 		<rules>
 			<stat name="constitution" value="2" />
 			<stat name="innate speed" value="30" bonus="base" />

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Cursed Blood</name>
-		<update version="1.0.0">
+		<update version="2.0.0">
 			<file name="race-cursedblood.xml" url="" />
 		</update>
 	</info>
@@ -41,10 +41,6 @@
             <p class="indent"><strong><em>Subrace.</em></strong> Although all cursed-bloods view each other as family, depending on their origin—draconic, infernal, or otherwise—their flesh has evolved in various ways, which represent their subrace. Choose one of these subraces.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d10">4'0"</set>
-			<set name="weight" modifier="1d4">100 lb.</set>
-		</setters>
 		<rules>
 			<stat name="dexterity" value="1" />
             <select type="Racial Trait" name="Ability Score Increase (Cursed-Blood)" supports="Cursed-Blood" number="1"/>

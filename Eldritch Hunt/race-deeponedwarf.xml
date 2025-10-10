@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deep One Dwarf (Y'HA-NTHLEI)</name>
-		<update version="1.0.0">
+		<update version="2.0.0">
 			<file name="race-deeponedwarf.xml" url="" />
 		</update>
 	</info>
@@ -38,10 +38,6 @@
             </p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d10">4'0"</set>
-			<set name="weight" modifier="1d4">100 lb.</set>
-		</setters>
 		<rules>
 			<stat name="charisma" value="1" />
             <stat name="constitution" value="2" />

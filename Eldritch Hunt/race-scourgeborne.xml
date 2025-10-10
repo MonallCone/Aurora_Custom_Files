@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Scourgeborne</name>
-		<update version="1.0.00.2">
+		<update version="2.0.0">
 			<file name="race-scourgeborne.xml" url="" />
 		</update>
 	</info>
@@ -14,7 +14,7 @@
             Their curse has taken all the most twisted aspects of their personality and laid them bare for the whole world to see. They wear this disfigured appearance every day; the more resentment, hatred and anger one possesses, the more monstrous the appearance.
             
             Many view this Eldritch revelation as a curse - a curse that drives one to slip deeper and deeper into the depths of depravity until nothing but the monster remains. Yet, many refuse to let it break them - with their innermost darkness now visible, they have no choice but to accept it. It is said that accepting a fault is the first step in correcting it. Those scourgeborne who embrace their inner monster, but refuse to let it rule them, often become messianic heroes within the walls of Luyarnha, attempting to redeem the entire world with their actions, and perhaps one day, themselves. </p>
-            <h4>Manakin TRAITS</h4>
+            <h4>Scourgeborne TRAITS</h4>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2</p>
             <p class="indent"><strong><em>Age.</em></strong>  Scourgeborne are made not born. This means that they mature at the same rate as the race they originally belonged to.</p>
             <p class="indent"><strong><em>Size.</em></strong>Scourgeborne are about the same size and build as humans. Your size is Medium. </p>
@@ -38,10 +38,6 @@
         <p class="indent"><strong><em>Subraces</em></strong>Your subrace is dictated by an eldritch curse, which doesn’t seem to follow a clear reasoning, although it seems that whatever aspect of your personality is most depraved will influence the beast that emerges. There are 4 subraces: belua, vespertilio, aranea, and cervus.</p>
 		</description>
 		<sheet display="false" />
-		<setters>
-			<set name="height" modifier="2d10">4'0"</set>
-			<set name="weight" modifier="1d4">100 lb.</set>
-		</setters>
 		<rules>
 			<stat name="constitution" value="2" />
 			<stat name="innate speed" value="30" bonus="base" />
