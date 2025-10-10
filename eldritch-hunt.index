@@ -16,7 +16,7 @@
 		<file name="background-cultinitiate.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-cultinitiate.xml" />
 		<file name="background-disciple.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-disciple.xml" />
 		<file name="background-inquisitor.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-inquisitor.xml" />
-		<file name="background-investigator.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-invesitgator.xml" />
+		<file name="background-investigator.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-investigator.xml" />
 		<file name="background-markedfordeath.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-markedfordeath.xml" />
 		<file name="background-scion.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-scion.xml" />
 		<file name="background-worthlesshusk.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/background-worthlesshusk.xml" />
@@ -26,7 +26,7 @@
 		<file name="race-deeponedwarf.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/race-deeponedwarf.xml" />
 		<file name="race-demidritch.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/race-demidritch.xml" />
 		<file name="race-manakin.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/race-manakin.xml" />
-		<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/race-scorgeborne.xml" />
+		<file name="race-scourgeborne.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/race-scourgeborne.xml" />
 
 		<file name="feats.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/feats.xml" />	
 		<file name="spells.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/spells.xml" />
@@ -36,5 +36,5 @@
 		<file name="bard-college-of-the-apocalypse.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/bard-college-of-the-apocalypse.xml" />
 		<file name="paladin-oath-of-the-eldritch-hunt.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/paladin-oath-of-the-eldritch-hunt.xml" />
 		<file name="wizard-osteomancer.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/wizard-osteomancer.xml" />	
-</files>
+	</files>
 </index>
