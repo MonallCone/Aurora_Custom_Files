@@ -4,7 +4,7 @@
 		<name>Homebrew Stuffs</name>
 		<description>Dumb Shit</description>
 		<author>Monall Cone</author>
-		<update version="3.0.0">
+		<update version="4.0.0">
 			<file name="homebrew-stuffs.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/homebrew-stuffs.index"/>
 		</update>
 	</info>

@@ -4,7 +4,7 @@
 		<name>Eldritch Hunt</name>
 		<description>Eldritch Hunt auora files not writtem by me</description>
 		<author>????</author>
-		<update version="1.0.0">
+		<update version="2.0.0">
 			<file name="eldritch-hunt.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/eldritch-hunt.index"/>
 		</update>
 	</info>
