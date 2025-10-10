@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="2.0.0">
+		<update version="3.0.0">
 			<file name="sources.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Eldritch%20Hunt/source.xml" />
 		</update>
 	</info>
-	<element name="Homebrewstuffs" type="Source" source="Core" id="ID_MONALL_CONE_HOMEBREW">
+	<element name="Homebrew Stuffs" type="Source" source="Core" id="ID_MONALL_CONE_HOMEBREW">
 		<description>
 			
 		</description>
