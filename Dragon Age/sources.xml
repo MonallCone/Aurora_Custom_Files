@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="11.0.0">
+		<update version="12.0.0">
 			<file name="sources.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/sources.xml" />
 		</update>
 	</info>
@@ -16,7 +16,7 @@
 			<set name="errata"></set>
 			<set name="author" abbreviation="BW" url="">Bioware</set>
 			<set name="official">false</set>
-			<set name="third-party">true</set>
+			<set name="homebrew">true</set>
 			<set name="release">20140819</set>
 		</setters>
 	</element>
