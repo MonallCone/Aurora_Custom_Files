@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deep One Dwarf (Y'HA-NTHLEI)</name>
-		<update version="2.0.0">
+		<update version="3.0.0">
 			<file name="race-deeponedwarf.xml" url="" />
 		</update>
 	</info>
@@ -18,20 +18,20 @@
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2 and your Charisma increase by 1</p>
             <p class="indent"><strong><em>Creature Type</em></strong> Your creature type is aberration, rather than humanoid. </p>
             <p class="indent"><strong><em>Age.</em></strong> Deep One Dwarves mature much faster than humans, reaching maturity at the age of 10. They cannot die of old age; instead their aging mind progressively loses grip over their body, turning them into brainless servants of He Who Lies Dreaming when they reach 50 years of age. </p>
-            <p class="indent"><strong><em>Size.</em></strong>Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>
-            <p class="indent"><strong><em>Speed.</em></strong>Your base walking speed is 25 feet and you have a swimming speed of 25 feet.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet and you have a swimming speed of 25 feet.</p>
             <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common,Deep Speech, and Dwarvish. </p>
             
             <p class="indent"><strong><em>Otherworldly Body</em></strong> You have advantage on saving throws against poison, and you have resistance against cold damage.</p>
-            <p class="indent"><strong><em>Illusory Body</em></strong>Although your body is covered in tentacles, clams, seashells, and other eldritch appendages, you are covered by an illusion which makes you appear like a normal hill dwarf to others. You can use an action to turn this illusion on or off. Other Deep Ones can see through this illusion.</p>
-            <p class="indent"><strong><em>Sailor Training</em></strong>You have proficiency with the trident, cleaver, and firearms.</p>
-            <p class="indent"><strong><em>Amphibious</em></strong>You can breathe air and water.</p>
+            <p class="indent"><strong><em>Illusory Body</em></strong> Although your body is covered in tentacles, clams, seashells, and other eldritch appendages, you are covered by an illusion which makes you appear like a normal hill dwarf to others. You can use an action to turn this illusion on or off. Other Deep Ones can see through this illusion.</p>
+            <p class="indent"><strong><em>Sailor Training</em></strong> You have proficiency with the trident, cleaver, and firearms.</p>
+            <p class="indent"><strong><em>Amphibious</em></strong> You can breathe air and water.</p>
             <p class="indent"><strong><em>Cosmic Knowledge</em></strong> Whenever you make an History check related to the origin of an eldritch item or construction, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>
-            <p class="indent"><strong><em>Guiding Light</em></strong>You know the dancing lights cantrip. Charisma is your spellcasting modifier for the spell.</p>
-            <p class="indent"><strong><em>The Dreamers Curse</em></strong>Your mind is clouded by the dreams of the Slumbering One, and you find it hard to discern between reality and dream. You have disadvantage on saving throws against illusion</p>
+            <p class="indent"><strong><em>Guiding Light</em></strong> You know the dancing lights cantrip. Charisma is your spellcasting modifier for the spell.</p>
+            <p class="indent"><strong><em>The Dreamers Curse</em></strong> Your mind is clouded by the dreams of the Slumbering One, and you find it hard to discern between reality and dream. You have disadvantage on saving throws against illusion</p>
             <p class="indent"><strong><em>Fathomless Limbs</em></strong> Your body has been altered beyond recognition by the Slumbering One, giving you one of the following body alterations: 
             <ul>
-                <li><strong>Coiling Arm</strong>Your arm is nothing but a writhing mass of tentacles that flail the air. On your turn, after hitting an enemy with a melee attack, you can attempt to grapple them as a bonus action (normal grappling restrictions apply).</li>
+                <li><strong>Coiling Arm</strong> Your arm is nothing but a writhing mass of tentacles that flail the air. On your turn, after hitting an enemy with a melee attack, you can attempt to grapple them as a bonus action (normal grappling restrictions apply).</li>
                 <li><strong>Brutal Pincers</strong>. Your forearm –a massive pincer– is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. If you are targeting a creature you are grappling, the damage die becomes a d10 instead. You cannot use this arm to make any precise hand manipulation.</li>
                 <li><strong>Mucoid Extremities</strong> Your hands and feet are palmed and covered in cups. Your swimming speed increases to 30 feet, and you gain a climbing speed of 20 feet.</li>
             </ul>

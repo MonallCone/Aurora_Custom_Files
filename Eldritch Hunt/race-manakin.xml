@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Manakin</name>
-		<update version="3.0.0">
+		<update version="4.0.0">
 			<file name="race-manakin.xml" url="" />
 		</update>
 	</info>
@@ -21,20 +21,20 @@
             <p class="indent"><strong><em>Creature Type</em></strong> You are a Humanoid. You are also considered a Construct for any prerequisite or effect that requires you to be a Construct.</p>
             <p class="indent"><strong><em>Born to Serve</em></strong>  Manikins are made to be unable to hate or resent their creators. This lapse in judgment affects you in all circumstances. You have disadvantage on Insight checks. </p>
             <p class="indent"><strong><em>Lightning Heart</em></strong> You have resistance to lightning damage.</p>
-            <p class="indent"><strong><em>Living Matieral</em></strong>Manikins don’t need to eat, drink, or breathe and are immune to the poisoned condition. In addition their metallic mind is incorruptible, they have advantage on saving throws against madness.</p>
+            <p class="indent"><strong><em>Living Matieral</em></strong> Manikins don’t need to eat, drink, or breathe and are immune to the poisoned condition. In addition their metallic mind is incorruptible, they have advantage on saving throws against madness.</p>
             <p class="indent"><strong><em>Modular Gold Plating.</em></strong> Your body has built-in defensive layers, which determine your armor class. You gain no AC benefit from wearing armor, but if you are using a shield, you apply its bonus as normal. Through 8 hours of work in a specialized workshop, you can alter your defensive layers to the Medium Armor or Heavy Armor options below, or back into your Unarmored state. If you use your Strength modifier for AC, you have disadvantage on Stealth checks.</p>
             <ul>
                 <li>
                     <strong>Prerequisite: Unarmored;</strong>  
-                    AC = 11 + your Dexterity modifier 
+                     AC = 11 + your Dexterity modifier 
                 </li>
                 <li>
                     <strong>Prerequisite: Medium Armor proficiency; </strong>  
-                    13 + your Dexterity modifier (maximum of 2) or Strength modifier (maximum of 3). Choose which modifier when you gain this state.
+                     13 + your Dexterity modifier (maximum of 2) or Strength modifier (maximum of 3). Choose which modifier when you gain this state.
                 </li>
                 <li>
                     <strong>Prerequisite: Heavy Armor proficiency; </strong>  
-                    AC = 16 + your Strength modifier (maximum of 2).
+                     AC = 16 + your Strength modifier (maximum of 2).
                 </li>
             </ul>
         <p class="indent"><strong><em>Subraces</em></strong>Manikins can be created for a variety of purposes, but they are mostly divided into three subraces: Custodian, Handler, and Thespian. Choose one of these subraces.</p>

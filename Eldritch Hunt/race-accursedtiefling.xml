@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Accursed Tiefling</name>
-		<update version="2.0.0">
+		<update version="3.0.0">
 			<file name="race-accursedtiefling.xml" url="" />
 		</update>
 	</info>
@@ -19,7 +19,7 @@
             <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet</p>
             <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and Deep Speech.</p>
             <p class="indent"><strong><em>Eldritch Resistance</em></strong> You have resistance to necrotic damage.</p>
-            <p class="indent"><strong><em>Legacy of a Thousand Young</em></strong>You know the spare the dying cantrip. When you reach 3rd level, you can cast the false life spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the mirror image spell once with this trait. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells. </p>
+            <p class="indent"><strong><em>Legacy of a Thousand Young</em></strong> You know the spare the dying cantrip. When you reach 3rd level, you can cast the false life spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the mirror image spell once with this trait. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells. </p>
             <p class="indent"><strong><em>Call of the Brood</em></strong>If a Blood Moon is out while you are asleep, you have a dream (as per the spell, save DC 16). In this dream, the Black Goat places a compulsion within your mind, ordering you to carry out some activity as a torrent of images and sensations. When you awaken, you are automatically affected by a suggestion spell (save DC 16, cast as a 7th-level spell) in addition to the effects of dream, and must carry out the order.</p>
 		</description>
 		<sheet display="false" />
