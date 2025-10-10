@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Cursed Blood</name>
-		<update version="2.0.0">
+		<update version="3.0.0">
 			<file name="race-cursedblood.xml" url="" />
 		</update>
 	</info>
@@ -49,7 +49,7 @@
 			<grant type="Language" id="ID_LANGUAGE_COMMON"/>
 			<select type="Language" number="1" id="ID_LANGUAGE_INFERNAL|ID_LANGUAGE_DRACONIC" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_VIGILANT_NATURE" />
-			<select type="Racial Trait" name="Conjonied Twin" supports="Cursed-Blood-Twin" number="1"/>
+			<select type="Racial Trait" name="Conjoined Twin" supports="Cursed-Blood-Twin" number="1"/>
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CURSED_BLOOD_SUBRACE" />
 		</rules>
 	</element>
