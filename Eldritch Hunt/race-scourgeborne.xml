@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Scourgeborne</name>
-		<update version="0.2">
+		<update version="1.0.00.2">
 			<file name="race-scourgeborne.xml" url="" />
 		</update>
 	</info>

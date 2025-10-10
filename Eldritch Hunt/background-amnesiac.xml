@@ -4,7 +4,7 @@
 		<name>Amnesiac</name>
 		<description>Amnesiac Background</description>
 		<author url="">Eldritch Hunt</author>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="background-amnesiac.xml" url=""/>
 		</update>
 	</info>

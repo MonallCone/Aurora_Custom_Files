@@ -3,7 +3,7 @@
     <info>
         <name>Path of the Lightning Vessel</name>
 		<author url="">Eldritch Hunt</author>
-        <update version="0.0.1">
+        <update version="1.0.0">
             <file name="barbarian-path-of-the-earthbreaker.xml" url="" />
         </update>
     </info>

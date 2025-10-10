@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Accursed Tiefling</name>
-		<update version="0.2">
+		<update version="1.0.0">
 			<file name="race-accursedtiefling.xml" url="" />
 		</update>
 	</info>

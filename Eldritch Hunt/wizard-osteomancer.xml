@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Osteomancer</name>
-        <update version="0.0.2">
+        <update version="1.0.0">
             <file name="wizard-osteomancer.xml" url=""/>
         </update>
     </info>

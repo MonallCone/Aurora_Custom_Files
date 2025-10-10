@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Bard College of the Apocalypse</name>
-        <update version="0.0.1">
+        <update version="1.0.0">
             <file name="bard-college-of-apocalypse.xml" url="" />
         </update>
     </info>

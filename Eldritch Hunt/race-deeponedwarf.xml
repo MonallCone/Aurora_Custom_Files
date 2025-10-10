@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deep One Dwarf (Y'HA-NTHLEI)</name>
-		<update version="0.2">
+		<update version="1.0.0">
 			<file name="race-deeponedwarf.xml" url="" />
 		</update>
 	</info>

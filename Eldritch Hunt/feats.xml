@@ -4,7 +4,7 @@
 		<name>Feats</name>
 		<description>Feats from Eldritch Hunt</description>
 		<author url="">Eldritch Hunt</author>
-		<update version="0.1.6">
+		<update version="1.0.0">
 			<file name="feats.xml" url="" />
 		</update>
 	</info>

@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Oath of the Eldritch Hunt</name>
-        <update version="0.0.1">
+        <update version="1.0.0">
             <file name="paladin-oath-of-the-eldritch-hunt.xml" url="" />
         </update>
     </info>

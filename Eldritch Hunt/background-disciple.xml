@@ -4,7 +4,7 @@
 		<name>Disciple</name>
 		<description>Disciple Background</description>
 		<author url="">Eldritch Hunt</author>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="background-disciple.xml" url=""/>
 		</update>
 	</info>

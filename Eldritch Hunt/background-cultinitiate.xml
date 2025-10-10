@@ -4,7 +4,7 @@
 		<name>Cult Initiate</name>
 		<description>Cult Initiate Background</description>
 		<author url="">Eldritch Hunt</author>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="background-cultinitiate.xml" url=""/>
 		</update>
 	</info>

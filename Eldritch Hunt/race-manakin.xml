@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Manakin</name>
-		<update version="0.2">
+		<update version="1.0.0">
 			<file name="race-manakin.xml" url="" />
 		</update>
 	</info>

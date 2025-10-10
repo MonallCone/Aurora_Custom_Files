@@ -2,7 +2,7 @@
 <elements>
   <info>
     <name>Spells</name>
-    <update version="0.4.5">
+    <update version="1.0.0">
       <file name="spells.xml" url="" />
     </update>
   </info>

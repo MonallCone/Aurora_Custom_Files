@@ -4,7 +4,7 @@
 		<name>Inquisitor</name>
 		<description>Inquisitor Background</description>
 		<author url="">Eldritch Hunt</author>
-		<update version="0.0.5">
+		<update version="1.0.0">
 			<file name="background-inquisitor.xml" url=""/>
 		</update>
 	</info>
