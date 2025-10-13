@@ -4,8 +4,8 @@
 		<name>Tasha's Cauldron of Everything</name>
 		<description>incomplete</description>
 		<author>Wizard of the Coast</author>
-		<update version="2.0.0">
-			<file name="tcoe.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/homebrew-stuffs.index"/>
+		<update version="3.0.0">
+			<file name="tcoe.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/tcoe.index"/>
 		</update>
 	</info>
 	<files>
