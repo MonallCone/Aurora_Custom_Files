@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="1.0.0">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/TCOE/source.xml" />
+		<update version="2.0.0">
+			<file name="source.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/TCOE/source.xml" />
 		</update>
 	</info>
 	<element name="Tasha's Cauldron of Everything" type="Source" source="Core" id="ID_WOTC_SOURCE_TCOE">
