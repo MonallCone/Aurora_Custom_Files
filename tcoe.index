@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Tasha's Cauldron of Everything</name>
+		<description>incomplete</description>
+		<author>Wizard of the Coast</author>
+		<update version="1.0.0">
+			<file name="tcoe.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/homebrew-stuffs.index"/>
+		</update>
+	</info>
+	<files>
+			<file name="source.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/TCOE/source.xml" /> 
+			<file name="innvocations.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/TCOE/invocations.xml" />
+	</files>
+</index>
