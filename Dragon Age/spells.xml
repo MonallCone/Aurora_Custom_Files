@@ -506,7 +506,7 @@
             <p>You conjure a layer of stony armor that envelops your body, granting you enhanced protection. For the duration, you gain temporary hit points equal to 1d6 + your spellcasting modifier (minimum of 1). These temporary hit points last until they are depleted or the spell ends.</p>
             <p class="indent">While the armor lasts, you also gain resistance to bludgeoning, piercing, and slashing damage from non-magical attacks.</p>
             <p class="indent">If the temporary hit points are reduced to 0, the armor shatters, ending the spell.</p>
-            <p class="indent">At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the temporary hit points increase by 1d6 for each slot level above 1st.</p>
+            <p class="indent">At Higher Levels: When you cast this spell using a spell slot of 2nd level or higher, the temporary hit points increase by 1d6 for each slot level above 1st. 3rd or 4th level it lasts 8 hours and above 24 hours</p>
         </description>
         <setters>
             <set name="keywords">abjuration, protection, armor</set>
