@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="3.0.0">
+		<update version="4.0.0">
 			<file name="source.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/TCOE/source.xml" />
 		</update>
 	</info>
