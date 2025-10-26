@@ -3,7 +3,7 @@
         <name>Invocations</name>
         <description>TCOE Invocations</description>
         <author url="">WOTC</author>
-        <update version="2.0.0">
+        <update version="3.0.0">
             <file name="invocations.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/TCOE/invocations.xml"/>
         </update>
     </info>
