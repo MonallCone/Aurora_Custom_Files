@@ -4,7 +4,7 @@
 		<name>Dragon Age</name>
 		<description>Dragon age dnd 5e custom files</description>
 		<author>Monall Cone</author>
-		<update version="11.0.0">
+		<update version="12.0.0">
 			<file name="dragon_age.index" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/dragon_age.index"/>
 		</update>
 	</info>
@@ -22,5 +22,6 @@
 		<file name="barbarian-path-of-the-reaver.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/barbarian-path-of-the-reaver.xml" />
 		<file name="paladin-oath-of-the-templar.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/paladin-oath-of-the-templar.xml" />
 		<file name="warlock-sloth-demon.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/warlock-sloth-demon.xml" />
+		<file name="cleric-purposedomain.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/cleric-purposedomain.xml" />
 	</files>
 </index>

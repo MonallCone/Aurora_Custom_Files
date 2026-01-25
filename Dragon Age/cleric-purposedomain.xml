@@ -2,8 +2,8 @@
 <elements>
   <info>
     <name>Purpose Domain</name>
-    <update version="10.0.0">
-      <file name="cleric-purposedomain.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/barbarian-purposedomain.xml" />
+    <update version="11.0.0">
+      <file name="cleric-purposedomain.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/cleric-purposedomain.xml" />
     </update>
   </info>
   <element name="Purpose Domain" type="Archetype" source="Dragon Age" id="ID_ARCHETYPE_CLERIC_PURPOSE_DOMAIN">
