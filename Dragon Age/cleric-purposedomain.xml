@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Purpose Domain</name>
+    <update version="10.0.0">
+      <file name="cleric-purposedomain.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/Dragon%20Age/barbarian-purposedomain.xml" />
+    </update>
+  </info>
+  <element name="Purpose Domain" type="Archetype" source="Dragon Age" id="ID_ARCHETYPE_CLERIC_PURPOSE_DOMAIN">
+    <supports>Divine Domain</supports>
+    <description>
+      <p>You have brushed against death and felt its cold stillness linger. In that frozen moment, a Spirit of Purpose touched your soul, stripping away the path you once walked and igniting a radiant clarity in its place. You were reborn not to follow a destiny, but to choose one. Purpose clerics bear the chill of endings and the light of renewal. By healing and inspiring those around them, they guide others toward new beginnings, and in doing so, uncover the path they themselves are meant to follow.</p>
+      <div element="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_BONUS_CANTRIPS" />
+      <div element="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_DOMAIN_SPELLS" />
+      <div element="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_REFLECTED_PURPOSE" />
+      <div element="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_CD_PATH_OF_RESOLVE" />
+      <div element="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_ECHOING_BONDS" />
+      <div element="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_DIVINE_STRIKE" />  
+      <div element="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_SPIRIT_ASCENDANT" />
+    </description>
+    <sheet display="false">
+      <description>Purpose Clerics focus on supoorting those around them to in turn help themselves either by using radiant flames to inspire allies or the cold touch of death to target foes.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_BONUS_CANTRIPS" level="1"/>
+      <grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_DOMAIN_SPELLS" level="1"/>
+      <grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_REFLECTED_PURPOSE" level="1"/>
+      <grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_CD_PATH_OF_RESOLVE" level="2"/>
+      <grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_ECHOING_BONDS" level="6"/>
+      <grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_DIVINE_STRIKE" level="8"/>
+      <grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_SPIRIT_ASCENDANT" level="17"/>
+    </rules>
+  </element>
+  <element name="Bonus Cantrips" type="Archetype Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_BONUS_CANTRIPS">
+    <description>
+      <p>You gain guidance and ray of frost as cleric cantrips, these do not count towards the number of cantrips you know.</p>
+    </description>
+    <sheet display="false">
+      <description></description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_GUIDANCE" level="1" spellcasting="Cleric"/>
+      <grant type="Spell" id="ID_PHB_SPELL_RAY_OF_FROST" level="1" spellcasting="Cleric"/>
+    </rules>
+  </element>
+  <element name="Domain Spells" type="Archetype Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_DOMAIN_SPELLS">
+    <description>
+      <p>You gain domain spells at the cleric levels listed in the Purpose Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
+      <h5>Purpose Domain Spells</h5>
+      <table>
+        <thead>
+          <tr><td>Cleric Level</td><td>Spells</td></tr>
+        </thead>
+        <tr><td>1st</td><td><em>sanctuary, shield of faith</em></td></tr>
+        <tr><td>3rd</td><td><em>winters grasp, warding bond</em></td></tr>
+        <tr><td>5th</td><td><em>beacon of hope, mass healing word</em></td></tr>
+        <tr><td>7th</td><td><em>ice storm, death ward</em></td></tr>
+        <tr><td>9th</td><td><em>greater restoration, cone of cold</em></td></tr>
+      </table>
+    </description>
+    <sheet>
+      <description></description>
+    </sheet>
+    <rules>
+      <grant type="Spell" id="ID_PHB_SPELL_SANCTUARY" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_SHIELD_OF_FAITH" level="1" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_DA_SPELL_WINTERS_GRASP" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_WARDING_BOND" level="3" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_BEACON_OF_HOPE" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_MASS_HEALING_WORD" level="5" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_ICE_STORM" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="7" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_GREATER_RESTORATION" level="9" spellcasting="Cleric" prepared="true" />
+      <grant type="Spell" id="ID_PHB_SPELL_CONE_OF_COLD" level="9" spellcasting="Cleric" prepared="true" />
+    </rules>
+  </element>
+  <element name="Reflected Purpose" type="Archetype Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_REFLECTED_PURPOSE">
+    <description>
+      <p>At 1st level, when you cast a spell of 1st level or higher that can target only one allied creature, you gain temporary hit points equal to your cleric level + spells level</p>
+    </description>
+    <sheet>
+      <description>When you cast a spell of 1st level or higher that can target only one allied creature, you gain {{level:cleric}} + spells level in temporary hit points</description>
+    </sheet>
+  </element>
+  <element name="Channel Divinity: Path of Resolve" type="Archetype Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_CD_PATH_OF_RESOLVE">
+    <description>
+      <p>Starting at 2nd level, you can use your Channel Divinity on yourself or a number of allies within 30ft</p>
+      <p class="indent">As an action you choose one of the following resolves
+        <ul>
+            <li><strong>Cold Resolve</strong>You or your chosen allies filled with the stillness of reflection are incased in an icy protective shield. Targets gain temp hp equal to 1d6 + wisdom modifier and for a number of rounds equal to half your wisdom modifier rounded up targets gains your proficency bonus in AC and resistance to cold</li>
+            <li><strong>Radiant Resolve</strong>You or your chosen allies are bathed in radiant guidance free to strive forward with unwaverring support. Targets heal for 2d4 + Wisdom modifier and for number of rounds equal to half your wisdom modifier rounded up they gain half your wisdom modifer on attack and damage rolls</li>
+        </ul>
+      </p>
+    </description>
+    <sheet alt="Path of Resolve" action="Action" usage="Channel Divinity">
+      <description>Choose yourself or {{wisdom:modifier}} other creatures within 30ft to gain one Resolve</description>
+    </sheet>
+    <rules>
+        <grant type="Class Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_COLD_RESOLVE" />
+        <grant type="Class Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_RADIANT_RESOLVE" />
+    </rules>
+  </element>
+  <element name="Cold Resolve" type="Class Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_COLD_RESOLVE">
+    <description>You or your chosen allies filled with the stillness of reflection are incased in an icy protective shield. Targets gain temp hp equal to 1d6 + wisdom modifier and for a number of rounds equal to half your wisdom modifier rounded up targets gains your proficiency bonus in AC and resistance to cold</description>
+    <sheet action="Action" usage="Channel Divinity">
+        <p>Targets gain 1d6 + {{cold resolve:wis}} temp hp and for {{cold resolve:wis half}} rounds targets gain +{{proficiency}} AC and resistance to cold</p>
+    </sheet>
+    <rules>
+        <stat name="cold resolve:wis" value="wisdom:modifier"/>
+        <stat name="cold resolve:wis half" value="wisdom:modifier:half:up"/>
+    </rules>
+  </element>
+  <element name="Radiant Resolve" type="Class Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_RADIANT_RESOLVE">
+    <description>You or your chosen allies are bathed in radiant guidance free to strive forward with unwaverring support. Targets heal for 2d6 + Wisdom modifier and for number of rounds equal to half your wisdom modifier rounded up they gain half your wisdom modifer on attack and damage rolls</description>
+    <sheet action="Action" usage="Channel Divinity">
+        <p>Targets heal for 2d4 + {{radiant resolve:wis}} and for {{radiant resolve:wis half}} rounds targets gain +{{radiant resolve:wis half}} in attack and damage rolls</p>
+    </sheet>
+    <rules>
+        <stat name="radiant resolve:wis" value="wisdom:modifier"/>
+        <stat name="radiant resolve:wis half" value="wisdom:modifier:half:up"/>
+    </rules>
+  </element>
+  <element name="Echoing Bonds" type="Archetype Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_ECHOING_BONDS">
+    <description>
+      <p>You gain resistance to cold damage and when you use your reflected purpose ability you may choose another target within 60 feet to become resistant to cold damage aswell until another target is selected or next long rest</p>
+    </description>
+    <sheet>
+      <description>When you benifit from Reflected Purpose you may choose another target within 60 feet to become resistant to cold damage until another target is selected or next long rest</description>
+    </sheet>
+    <rules>
+      <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+    </rules>
+  </element>
+  <element name="Divine Strike" type="Archetype Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_DIVINE_STRIKE">
+		<description>
+			<p>At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 radiant or 1d8 cold damage to the target. When you reach 14th level, the extra damage increases to 2d8.</p>
+		</description>
+		<sheet>
+			<description>Once on each of your turn +1d8 radiant or cold damage with a weapon attack.</description>
+			<description level="14">Once on each of your turn +2d8 radiant or cold damage with a weapon attack.</description>
+		</sheet>
+  </element>
+  <element name="Spirit Ascendant" type="Archetype Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_SPIRIT_ASCENDANT">
+    <description>
+      <p>At 17th level, your bond with the Spirit of Purpose reaches its pinnacle. As an action, you can emanate a radiant or icy aura for 1 minute. While this aura is active:
+        <ul>
+            <li><strong>Cold Aura</strong>Allies of your choice within 30 feet gain a bonus to AC equal to your Wisdom modifier, and all damage they take is reduced by an amount equal to your cleric level.</li>
+            <li><strong>Radiant Aura</strong>Allies of your choice within 30 feet gain a bonus to attack and damage rolls equal to your Wisdom modifier and regain hit points equal to 1d6 + your cleric level at the start of each turn.</li>
+        </ul>
+     </p>
+    </description>
+    <sheet action="Action" usage="Short Rest">
+      <description>Once per short rest you choose to activate either an Cold or Radiant Aura</description>
+    </sheet>
+    <rules>
+        <grant type="Class Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_COLD_AURA" />
+        <grant type="Class Feature" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_RADIANT_AURA" />
+    </rules>
+  </element>
+  <element name="Cold Aura" type="Class Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_COLD_AURA">
+    <description>Allies of your choice within 30 feet gain a bonus to AC equal to your Wisdom modifier, and all damage they take is reduced by an amount equal to your cleric level.</description>
+    <sheet action="Action" usage="Short Rest">
+        <p>Allies of your choice within 30 feet gain +{{cold aura:wis}}, and all damage they take is reduced by {{level:cleric}}</p>
+    </sheet>
+    <rules>
+        <stat name="cold aura:wis" value="wisdom:modifier"/>
+    </rules>
+  </element>
+  <element name="Radiant Aura" type="Class Feature" source="Dragon Age" id="ID_ARCHETYPE_FEATURE_PURPOSE_DOMAIN_RADIANT_AURA">
+    <description>Allies of your choice within 30 feet gain a bonus to attack and damage rolls equal to your Wisdom modifier and regain hit points equal to 1d6 + your cleric level at the start of each turn.</description>
+    <sheet action="Action" usage="Short Rest">
+        <p>Allies of your choice within 30 feet gain +{{radiant aura:wis}} to attack and damage rolls and regain hit points equal to 1d6 + {{level:cleric}} at the start of each turn.</p>
+    </sheet>
+    <rules>
+        <stat name="radiant aura:wis" value="wisdom:modifier"/>
+    </rules>
+  </element>
+</elements>
