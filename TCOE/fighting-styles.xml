@@ -3,7 +3,7 @@
         <name>Fighting Style</name>
         <description>TCOE Fighting Styles</description>
         <author url="">WOTC</author>
-        <update version="1.0.0">
+        <update version="2.0.0">
             <file name="fighting-styles.xml" url="https://raw.githubusercontent.com/MonallCone/Aurora_Custom_Files/refs/heads/main/TCOE/fighting-styles.xml"/>
         </update>
     </info>
